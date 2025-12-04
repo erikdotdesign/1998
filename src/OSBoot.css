@@ -1,0 +1,46 @@
+.c-os-boot {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: url("./assets/images/boot/boot-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-os-boot__logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c-os-boot__logo img {
+  max-width: 50vw;
+  max-height: 50vh;
+  object-fit: contain;
+}
+
+.c-os-boot__progress {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+.c-os-boot__loading-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.c-os-boot__info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

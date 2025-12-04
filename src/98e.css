@@ -1,0 +1,13 @@
+body {
+  font-family: "Pixelated MS Sans Serif", Arial;
+}
+
+pre {
+  background: black;
+  color: white;
+  font-family: "Perfect DOS VGA 437 Win", monospace;
+
+  * {
+    font-family: "Perfect DOS VGA 437 Win", monospace;
+  }
+}
