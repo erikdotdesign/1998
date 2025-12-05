@@ -15,7 +15,7 @@
 \*-------------------------------------------*/
 
 /* Normal cursor */
-html, body {
+html, body, div {
   cursor: url("./assets/images/cursors/normal.png") 0 0, auto;
 }
 
@@ -26,10 +26,20 @@ a, button, [role="button"], input[type="submit"], input[type="button"], .clickab
 
 /* Not allowed */
 [disabled], .not-allowed, .disabled {
-  cursor: url("./assets/images/cursors/not-allowed.png") 0 0, not-allowed !important;
+  cursor: url("./assets/images/cursors/not-allowed.png") 9 9, not-allowed !important;
 }
 
 /* Wait (loading state) */
 html.loading, html.loading * {
   cursor: url("./assets/images/cursors/wait.png") 0 0, wait !important;
+}
+
+/* Resize */
+.cursor--resize-br {
+  cursor: url("./assets/images/cursors/resize-br.png") 6 6, se-resize !important;
+}
+
+/* Resize */
+.cursor--drag {
+  cursor: url("./assets/images/cursors/drag.png") 10 10, move !important;
 }

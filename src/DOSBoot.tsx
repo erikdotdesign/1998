@@ -11,7 +11,7 @@ const COMMANDS = [
 
 const DOSBoot = ({
   setPhase,
-  duration = 1500
+  duration = 4000
 }: {
   setPhase: (phase: "DOS" | "OS") => void;
   duration?: number;

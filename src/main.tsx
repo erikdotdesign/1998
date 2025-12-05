@@ -4,10 +4,13 @@ import "./reset.css";
 import "98.css";
 import "./98e.css";
 import './index.css';
+import WindowProvider from './WindowProvider.tsx';
 import App from './App.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <WindowProvider>
+      <App />
+    </WindowProvider>
   </StrictMode>,
 );

@@ -1,0 +1,5 @@
+.c-desktop {
+  display: flex;
+  flex: 1;
+  background: var(--desktop-bg);
+}

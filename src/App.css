@@ -1,5 +1,5 @@
 #root {
-  --color-green: #008080;
+  --desktop-bg: #008080;
   --font-family-mono: "Perfect DOS VGA 437 Win", monospace;
   --font-family: "Pixelated MS Sans Serif", Arial;
 }
@@ -7,5 +7,7 @@
 .c-app {
   width: 100vw;
   height: 100vh;
-  background: var(--color-green);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
