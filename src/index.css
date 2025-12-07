@@ -35,8 +35,20 @@ html.loading, html.loading * {
 }
 
 /* Resize */
-.cursor--resize-br {
-  cursor: url("./assets/images/cursors/resize-br.png") 6 6, se-resize !important;
+.cursor--resize-nwse {
+  cursor: url("./assets/images/cursors/nwse-resize.png") 6 6, nwse-resize !important;
+}
+
+.cursor--resize-nesw {
+  cursor: url("./assets/images/cursors/nesw-resize.png") 6 6, nesw-resize !important;
+}
+
+.cursor--resize-ew {
+  cursor: url("./assets/images/cursors/ew-resize.png") 9 9, ew-resize !important;
+}
+
+.cursor--resize-ns {
+  cursor: url("./assets/images/cursors/ns-resize.png") 9 9, ns-resize !important;
 }
 
 /* Resize */

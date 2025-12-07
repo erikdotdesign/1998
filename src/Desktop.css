@@ -1,5 +1,13 @@
 .c-desktop {
+  position: relative;
   display: flex;
   flex: 1;
   background: var(--desktop-bg);
+  overflow: hidden;
+}
+
+.c-desktop__inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }

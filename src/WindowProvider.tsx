@@ -7,7 +7,7 @@ const WindowProvider = ({
 }:{
   children: React.ReactNode;
 }) => {
-  const [windows, dispatch] = useReducer(windowReducer, []);
+  const [windows, dispatch] = useReducer(windowReducer, {});
   return (
     <WindowContext.Provider value={{ windows, dispatch }}>
       {children}

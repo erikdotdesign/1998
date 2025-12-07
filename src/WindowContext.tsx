@@ -1,13 +1,13 @@
 import { createContext } from "react";
-import type { WindowState, WindowAction } from "./windowReducer";
+import type { WindowAction, WindowStore } from "./windowReducer";
 
 export type WindowContextType = {
-  windows: WindowState[];
+  windows: WindowStore;
   dispatch: (action: WindowAction) => void;
 };
 
 const WindowContext = createContext({
-  windows: [],
+  windows: {},
   dispatch: () => {}
 } as WindowContextType);
 

@@ -13,7 +13,9 @@ const Desktop = forwardRef<HTMLDivElement, DesktopProps>(({
     <div 
       ref={ref}
       className="c-desktop">
-      {children}
+      <div className="c-desktop__inner">
+        {children}
+      </div>
     </div>
   );
 });

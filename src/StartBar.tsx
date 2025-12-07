@@ -37,18 +37,25 @@ const StartBar = () => {
       <div className="c-start-bar__divider" />
       <div className="c-start-bar__windows">
         {
-          windows.map((window) => (
+          Object.values(windows).map((win) => (
             <button 
-              key={window.id}
-              className={`c-start-bar__btn c-start-bar__btn--window ${window.focused ? "active" : ''}`} 
+              key={win.id}
+              className={`c-start-bar__btn c-start-bar__btn--window ${win.focused ? "active" : ''}`} 
               onClick={() => {
-                dispatch({
-                  type: "FOCUS",
-                  id: window.id
-                });
+                if (win.minimized) {
+                  dispatch({
+                    type: "RESTORE",
+                    id: win.id
+                  });
+                } else {
+                  dispatch({
+                    type: "FOCUS",
+                    id: win.id
+                  });
+                }
               }}>
-              { window.icon ? <img src={window.icon} /> : null }
-              <span>{ window.title }</span>
+              { win.icon ? <img src={win.icon} /> : null }
+              <span>{ win.title }</span>
             </button>
           ))
         }
