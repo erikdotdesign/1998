@@ -1,4 +1,5 @@
 .c-start-bar {
+  position: relative;
   width: 100%;
   background: var(--surface);
   display: flex;

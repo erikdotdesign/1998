@@ -3,6 +3,7 @@ import Boot from './Boot';
 import StartBar from './StartBar';
 import Desktop from './Desktop';
 import Popups from './Popups';
+import Wallpaper from './Wallpaper';
 import './App.css';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     booted
     ? <div className='c-app'>
         <Desktop ref={desktopRef}>
+          <Wallpaper />
           <Popups
             bounds={desktopRef} />
         </Desktop>

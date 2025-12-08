@@ -30,7 +30,8 @@ const StartBar = () => {
 
   return (
     <div className="c-start-bar">
-      <button className="c-start-bar__btn c-start-bar__btn--start">
+      <button 
+        className={`c-start-bar__btn c-start-bar__btn--start`}>
         <img src={Logo} /> 
         Start
       </button>
