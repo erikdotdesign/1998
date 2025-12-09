@@ -1,4 +1,7 @@
 .c-os-boot {
+  position: absolute;
+  inset: 0;
+  z-index: 99;
   display: flex;
   flex-direction: column;
   width: 100vw;

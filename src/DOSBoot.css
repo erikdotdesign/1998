@@ -1,4 +1,7 @@
 .c-dos-boot {
+  position: absolute;
+  inset: 0;
+  z-index: 99;
   cursor: none;
   display: flex;
   flex-direction: column;

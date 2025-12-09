@@ -11,17 +11,25 @@ const App = () => {
   const [booted, setBooted] = useState<boolean>(false);
 
   return (
-    booted
-    ? <div className='c-app'>
+    <>
+      <div className='c-app'>
         <Wallpaper />
         <Desktop ref={desktopRef}>
-          <Popups
-            bounds={desktopRef} />
+          {
+            booted
+            ? <Popups
+                bounds={desktopRef} />
+            : null
+          }
         </Desktop>
         <StartBar />
       </div>
-    : <Boot 
-        setBooted={setBooted} />
+      {
+        !booted
+        ? <Boot setBooted={setBooted} />
+        : null
+      }
+    </>
   );
 };
 

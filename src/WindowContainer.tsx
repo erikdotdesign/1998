@@ -1,13 +1,16 @@
 import WindowView from "./WindowView";
 import useWindowManager from "./WindowManager";
 import { useEffect } from "react";
+import type { WindowState } from "./windowReducer";
 
 const WindowContainer = ({ 
   id,
-  children
+  children,
+  onClose
 }: { 
   id: string;
   children: React.ReactNode;
+  onClose?: (window: WindowState) => void;
 }) => {
   const { windows, dispatch } = useWindowManager();
 
@@ -109,7 +112,10 @@ const WindowContainer = ({
 
         onMinimize={() => dispatch({ type: "MINIMIZE", id })}
         onMaximize={() => dispatch({ type: "MAXIMIZE", id })}
-        onClose={() => dispatch({ type: "CLOSE", id })}>
+        onClose={() => {
+          if (onClose) onClose(win);
+          dispatch({ type: "CLOSE", id });
+        }}>
         {children}
       </WindowView>
   );

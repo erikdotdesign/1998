@@ -1,9 +1,10 @@
-.c-window {
+.c-popup-window {
+  position: relative;
   width: 100%;
   height: 100%;
 }
 
-.c-window__ad {
+.c-popup-window__ad {
   position: relative;
   display: block;
   aspect-ratio: 1 / 1.414;

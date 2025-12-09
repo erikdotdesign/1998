@@ -1,6 +1,8 @@
-import type { WindowPopupType } from './windowReducer';
+import type { WindowPopupType, WindowState } from './windowReducer';
 import WindowContainer from "./WindowContainer";
 import useWindowManager from './WindowManager';
+
+import "./PopupWindow.css";
 
 import BigfootImg from "./assets/images/ad/ad-bigfoot_img.webp";
 import BigfootText from "./assets/images/ad/ad-bigfoot_overlay.webp";
@@ -53,26 +55,25 @@ const popupWindowContent = (popupType: WindowPopupType) => {
 const PopupWindow = ({
   id,
   onPopupClick,
+  onClose
 }: {
   id: string;
   onPopupClick?: () => void;
+  onClose?: (window: WindowState) => void;
 }) => {
   const { windows } = useWindowManager();
   const win = windows[id];
 
   const content = popupWindowContent(win.popupType as WindowPopupType);
 
-  // const handleClose = () => {
-  //   dispatch({ type: "CLOSE", id: w.id });
-  //   dispatch({ type: "OPEN", id: uuidv4(), windowType: 'popup', popupType: w.popupType as WindowPopupType });
-  // };
-
   return (
-    <WindowContainer id={id}>
-      <a className="c-window__ad" onClick={onPopupClick}>
-        <img src={content?.img} draggable="false" />
-        <img src={content?.text} draggable="false" />
-      </a>
+    <WindowContainer id={id} onClose={onClose}>
+      <div className='c-popup-window'>
+        <a className="c-popup-window__ad" onClick={onPopupClick}>
+          <img src={content?.img} draggable="false" />
+          <img src={content?.text} draggable="false" />
+        </a>
+      </div>
     </WindowContainer>
   );
 };

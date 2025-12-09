@@ -1,5 +1,8 @@
 import { Rnd, type RndDragCallback, type RndResizeCallback } from "react-rnd";
-import "./Window.css";
+
+import ResizeSvg from "./assets/images/ui/resize.svg";
+
+import "./WindowView.css";
 
 export type WindowViewProps = {
   title: string;
@@ -94,7 +97,7 @@ const WindowView = ({
       style={{ zIndex: z }}>
       <div
         {...props}
-        className="window c-window"
+        className="window c-window-view"
         onMouseDown={onMouseDown}>
         <div 
           className={`title-bar ${inactive ? "inactive" : ""}`}
@@ -110,6 +113,10 @@ const WindowView = ({
           </div>
         </div>
         <div className="window-body">{children}</div>
+        <div className="status-bar">
+          <div className="status-bar-field"></div>
+          <div className="status-bar-field status-bar-field-resize"></div>
+        </div>
       </div>
     </Rnd>
   );

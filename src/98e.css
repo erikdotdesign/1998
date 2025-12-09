@@ -186,3 +186,14 @@ button.active {
   height: 100%;
   overflow: hidden;
 }
+
+.status-bar {
+  min-height: 24px;
+}
+
+.status-bar-field-resize {
+  background-image: url("./assets/images/ui/resize.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 16px 16px;
+}
