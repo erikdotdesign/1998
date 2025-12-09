@@ -1,7 +1,5 @@
 import { Rnd, type RndDragCallback, type RndResizeCallback } from "react-rnd";
 
-import ResizeSvg from "./assets/images/ui/resize.svg";
-
 import "./WindowView.css";
 
 export type WindowViewProps = {
@@ -115,7 +113,7 @@ const WindowView = ({
         <div className="window-body">{children}</div>
         <div className="status-bar">
           <div className="status-bar-field"></div>
-          <div className="status-bar-field status-bar-field-resize"></div>
+          <div className="status-bar-field status-bar-field--resize"></div>
         </div>
       </div>
     </Rnd>

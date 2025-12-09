@@ -191,7 +191,7 @@ button.active {
   min-height: 24px;
 }
 
-.status-bar-field-resize {
+.status-bar-field--resize {
   background-image: url("./assets/images/ui/resize.svg");
   background-repeat: no-repeat;
   background-position: bottom right;

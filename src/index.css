@@ -16,42 +16,42 @@
 
 /* Normal cursor */
 html, body, div {
-  cursor: url("./assets/images/cursors/normal.png") 0 0, auto;
+  cursor: url("./assets/images/cursors/normal.svg") 0 0, auto;
 }
 
 /* Pointer (links, clickable items) */
 a, button, [role="button"], input[type="submit"], input[type="button"], .clickable {
-  cursor: url("./assets/images/cursors/pointer.png") 0 0, pointer;
+  cursor: url("./assets/images/cursors/pointer.svg") 0 0, pointer;
 }
 
 /* Not allowed */
 [disabled], .not-allowed, .disabled {
-  cursor: url("./assets/images/cursors/not-allowed.png") 9 9, not-allowed !important;
+  cursor: url("./assets/images/cursors/not-allowed.svg") 9 9, not-allowed !important;
 }
 
 /* Wait (loading state) */
 html.loading, html.loading * {
-  cursor: url("./assets/images/cursors/wait.png") 0 0, wait !important;
+  cursor: url("./assets/images/cursors/wait.svg") 0 0, wait !important;
 }
 
 /* Resize */
 .cursor--resize-nwse {
-  cursor: url("./assets/images/cursors/nwse-resize.png") 6 6, nwse-resize !important;
+  cursor: url("./assets/images/cursors/nwse-resize.svg") 6 6, nwse-resize !important;
 }
 
 .cursor--resize-nesw {
-  cursor: url("./assets/images/cursors/nesw-resize.png") 6 6, nesw-resize !important;
+  cursor: url("./assets/images/cursors/nesw-resize.svg") 6 6, nesw-resize !important;
 }
 
 .cursor--resize-ew {
-  cursor: url("./assets/images/cursors/ew-resize.png") 9 9, ew-resize !important;
+  cursor: url("./assets/images/cursors/ew-resize.svg") 9 9, ew-resize !important;
 }
 
 .cursor--resize-ns {
-  cursor: url("./assets/images/cursors/ns-resize.png") 9 9, ns-resize !important;
+  cursor: url("./assets/images/cursors/ns-resize.svg") 9 9, ns-resize !important;
 }
 
 /* Resize */
 .cursor--drag {
-  cursor: url("./assets/images/cursors/drag.png") 10 10, move !important;
+  cursor: url("./assets/images/cursors/drag.svg") 10 10, move !important;
 }
