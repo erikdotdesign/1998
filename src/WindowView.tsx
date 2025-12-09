@@ -136,10 +136,10 @@ const WindowView = ({
                         key={sub.label}
                         className={`c-window__submenu-item ${sub.disabled ? 'c-window__submenu-item--disabled' : ''}`}
                         onClick={() => sub.onClick?.()}>
-                        <div>
+                        <div className="c-window__submenu-item-icon">
                           { sub.icon ? <img src={sub.icon} /> : null }
                         </div>
-                        <span>{sub.label}</span>
+                        <span className="c-window__submenu-item-label">{sub.label}</span>
                       </li>
                     ))}
                   </ul>

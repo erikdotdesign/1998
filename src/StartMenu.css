@@ -4,7 +4,7 @@
   min-width: 250px;
   display: flex;
   flex-direction: row;
-  z-index: 99;
+  z-index: 999;
   gap: 4px;
 }
 

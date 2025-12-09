@@ -40,7 +40,7 @@
   }
 
   &:focus {
-    background: color-mix(in srgb, var(--link-blue) 75%, transparent);
+    background: color-mix(in srgb, var(--dialog-blue) 75%, transparent);
     color: #fff;
   }
 }

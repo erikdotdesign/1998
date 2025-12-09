@@ -38,8 +38,12 @@ const Wallpaper = () => {
     },
     pillars: {
       visible: true,
-      colors: ["#ff00ff", "#00ffff"]
+      colors: ["#808080", "#222222"]
     },
+    // pillars: {
+    //   visible: true,
+    //   colors: ["#ff00ff", "#00ffff"]
+    // },
     hydrated: false
   });
 
