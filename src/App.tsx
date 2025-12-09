@@ -6,6 +6,7 @@ import Popups from './Popups';
 import Wallpaper from './Wallpaper';
 import DesktopItems from './DesktopItems';
 import BioWindow from './BioWindow';
+import LinksWindow from './LinksWindow';
 import './App.css';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
             : null
           }
           <BioWindow />
+          <LinksWindow />
         </Desktop>
         <StartBar />
       </div>

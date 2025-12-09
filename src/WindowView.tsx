@@ -1,6 +1,12 @@
+import { useState, useRef, useEffect } from "react";
 import { Rnd, type RndDragCallback, type RndResizeCallback } from "react-rnd";
 
 import "./WindowView.css";
+
+export type WindowMenuItem = {
+  label: string;
+  submenu?: { label: string; icon?: string; disabled?: boolean, onClick?: () => void }[];
+};
 
 export type WindowViewProps = {
   title: string;
@@ -8,7 +14,6 @@ export type WindowViewProps = {
   inactive?: boolean;
   maximized?: boolean;
 
-  // controlled state
   x: number;
   y: number;
   width: number;
@@ -18,7 +23,6 @@ export type WindowViewProps = {
   resizable?: boolean;
   bounds?: HTMLElement | null;
 
-  // event handlers exposed to parent
   onDragStop?: RndDragCallback;
   onResizeStop?: RndResizeCallback;
   onMouseDown?: (e: React.MouseEvent) => void;
@@ -27,6 +31,7 @@ export type WindowViewProps = {
   onMinimize?: () => void;
   onMaximize?: () => void;
 
+  menu?: WindowMenuItem[];
   children?: React.ReactNode;
 } & React.HTMLAttributes<HTMLDivElement>;
 
@@ -42,18 +47,39 @@ const WindowView = ({
   z,
   resizable = false,
   bounds,
-
-  // events
+  menu = [], // default empty
   onDragStop,
   onResizeStop,
   onMouseDown,
   onClose,
   onMinimize,
   onMaximize,
-
   children,
   ...props
 }: WindowViewProps) => {
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const menuRef = useRef<HTMLUListElement>(null);
+
+  // Toggle menu on click
+  const toggleMenu = (menuLabel: string) => {
+    setOpenMenu(prev => (prev === menuLabel ? null : menuLabel));
+  };
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(e.target as Node)
+      ) {
+        setOpenMenu(null);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <Rnd
@@ -65,7 +91,7 @@ const WindowView = ({
       dragHandleClassName="title-bar"
       cancel=".title-bar-controls button"
       minWidth={300}
-      minHeight={400}
+      minHeight={300}
       enableResizing={{
         bottomRight: resizable,
         bottom: resizable,
@@ -76,32 +102,16 @@ const WindowView = ({
         topLeft: resizable,
         bottomLeft: resizable,
       }}
-      resizeHandleClasses={{ 
-        bottomRight: "cursor--resize-nwse", 
-        topLeft: "cursor--resize-nwse",
-        topRight: "cursor--resize-nesw",
-        bottomLeft: "cursor--resize-nesw",
-        top: "cursor--resize-ns",
-        bottom: "cursor--resize-ns",
-        left: "cursor--resize-ew",
-        right: "cursor--resize-ew",
-      }}
-      resizeHandleStyles={{
-        bottomRight: { width: "24px", height: "24px" },
-        bottomLeft: { width: "24px", height: "24px" },
-        topLeft: { width: "24px", height: "24px" },
-        topRight: { width: "24px", height: "24px" },
-      }}
       style={{ zIndex: z }}>
       <div
         {...props}
         className="window c-window-view"
         onMouseDown={onMouseDown}>
-        <div 
+        <div
           className={`title-bar ${inactive ? "inactive" : ""}`}
           onDoubleClick={onMaximize}>
           <div className="title-bar-left">
-            {icon ? <img className="title-bar-icon" src={icon as string} draggable="false" /> : null}
+            {icon && <img className="title-bar-icon" src={icon as string} draggable="false" />}
             <div className="title-bar-text">{title}</div>
           </div>
           <div className="title-bar-controls">
@@ -110,7 +120,41 @@ const WindowView = ({
             <button aria-label="Close" onClick={onClose} />
           </div>
         </div>
-        <div className="window-body">{children}</div>
+        {/* Window Menu */}
+        {menu.length > 0 && (
+          <ul className="c-window__menu" ref={menuRef}>
+            {menu.map(item => (
+              <li
+                key={item.label}
+                className={`c-window__menu-item ${openMenu === item.label ? `c-window__menu-item--active` : ''}`}
+                onClick={() => toggleMenu(item.label)}>
+                {item.label}
+                {openMenu === item.label && item.submenu && (
+                  <ul className="c-window__submenu window">
+                    {item.submenu.map(sub => (
+                      <li
+                        key={sub.label}
+                        className={`c-window__submenu-item ${sub.disabled ? 'c-window__submenu-item--disabled' : ''}`}
+                        onClick={() => sub.onClick?.()}>
+                        <div>
+                          { sub.icon ? <img src={sub.icon} /> : null }
+                        </div>
+                        <span>{sub.label}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+        )}
+        <div 
+          className="window-body"
+          style={{
+            paddingTop: menu.length > 0 ? 0 : undefined
+          }}>
+          {children}
+        </div>
         <div className="status-bar">
           <div className="status-bar-field"></div>
           <div className="status-bar-field status-bar-field--resize"></div>

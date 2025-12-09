@@ -2,3 +2,48 @@
   width: 100%;
   height: 100%;
 }
+
+.c-window__menu {
+  display: flex;
+  list-style: none;
+  padding: 0 8px;
+  margin: 0;
+  user-select: none;
+}
+
+.c-window__menu-item {
+  position: relative;
+  padding: 4px 12px;
+  cursor: default;
+
+  &.c-window__menu-item--active {
+    box-shadow: var(--border-sunken-outer), var(--border-sunken-inner);
+  }
+}
+
+.c-window__submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  min-width: 120px;
+  z-index: 100;
+}
+
+.c-window__submenu-item {
+  display: flex;
+  padding: 4px 12px;
+
+  &.c-window__submenu-item--disabled {
+    opacity: 0.25;
+    color: #000 !important;
+    background: none !important;
+  }
+}
+
+.c-window__submenu-item:hover {
+  background: var(--link-blue);
+  color: #fff;
+}

@@ -1,4 +1,4 @@
-import WindowView from "./WindowView";
+import WindowView, { type WindowMenuItem } from "./WindowView";
 import useWindowManager from "./WindowManager";
 import { useEffect } from "react";
 import type { WindowState } from "./windowReducer";
@@ -6,10 +6,12 @@ import type { WindowState } from "./windowReducer";
 const WindowContainer = ({ 
   id,
   children,
+  menu,
   onClose
 }: { 
   id: string;
   children: React.ReactNode;
+  menu?: WindowMenuItem[];
   onClose?: (window: WindowState) => void;
 }) => {
   const { windows, dispatch } = useWindowManager();
@@ -88,6 +90,7 @@ const WindowContainer = ({
         z={win.z}
         resizable={true}
         bounds={bounds.current}
+        menu={menu}
 
         onMouseDown={() => dispatch({ type: "FOCUS", id })}
         
