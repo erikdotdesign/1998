@@ -64,8 +64,8 @@ const WindowView = ({
       bounds={bounds || undefined}
       dragHandleClassName="title-bar"
       cancel=".title-bar-controls button"
-      minWidth={200}
-      minHeight={100}
+      minWidth={300}
+      minHeight={400}
       enableResizing={{
         bottomRight: resizable,
         bottom: resizable,

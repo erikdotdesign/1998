@@ -4,12 +4,15 @@ import type { WindowPopupType, WindowState } from './windowReducer';
 import useWindowManager from './WindowManager';
 import PopupWindow from "./PopupWindow";
 
+const POPUP_WIDTH = 300;
+const POPUP_HEIGHT = 475;
+
 const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => {
   const { windows, dispatch } = useWindowManager();
 
   const didMount = useRef(false);
 
-  const popupSequence: WindowPopupType[] = ["bigfoot", "bug", "horoscope", "movies", "shop", "spagett"];
+  const popupSequence: WindowPopupType[] = ["bug", "shop", "horoscope", "movies", "spagett", "bigfoot"];
 
   const [popupIndex, setPopupIndex] = useState<number>(0);
 
@@ -31,23 +34,21 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
     };
   };
 
-  const openPopup = (index: number) => {
-    if (index >= popupSequence.length) return;
+  const openPopup = (i: number) => {
+    let index = i;
+    if (index >= popupSequence.length) index = 0;
 
     const id = uuidv4();
 
-    const popupWidth = 275;
-    const popupHeight = 400;
-
-    const { x, y } = getRandomPosition(popupWidth, popupHeight);
+    const { x, y } = getRandomPosition(POPUP_WIDTH, POPUP_HEIGHT);
 
     dispatch({
       type: "OPEN",
       id,
       x,
       y,
-      width: popupWidth,
-      height: popupHeight,
+      width: POPUP_WIDTH,
+      height: POPUP_HEIGHT,
       bounds: bounds as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupSequence[index]
@@ -59,18 +60,15 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
   const reOpenPopup = (popupType: WindowPopupType) => {
     const id = uuidv4();
 
-    const popupWidth = 275;
-    const popupHeight = 400;
-
-    const { x, y } = getRandomPosition(popupWidth, popupHeight);
+    const { x, y } = getRandomPosition(POPUP_WIDTH, POPUP_HEIGHT);
 
     dispatch({
       type: "OPEN",
       id,
       x,
       y,
-      width: popupWidth,
-      height: popupHeight,
+      width: POPUP_WIDTH,
+      height: POPUP_HEIGHT,
       bounds: bounds as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupType

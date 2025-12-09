@@ -1,5 +1,3 @@
-import StartMenuCursor from "./StartMenuCursor";
-
 import Portfolio98Img from "./assets/images/ui/Portfolio98.png";
 import MoreIcon from "./assets/images/ui/more.png";
 import ShutDownIcon from "./assets/images/icons/shut-down.png";
@@ -53,10 +51,8 @@ const START_MENU_ITEMS = [{
 
 const StartMenu = ({
   startMenuOpen,
-  setStartMenuOpen
 }: {
   startMenuOpen: boolean;
-  setStartMenuOpen: (startMenuOpen: boolean) => void;
 }) => {
   return (
     startMenuOpen &&

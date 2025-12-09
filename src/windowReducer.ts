@@ -1,8 +1,9 @@
+import NotepadIcon from "./assets/images/icons/notepad.png";
+import LinkIcon from "./assets/images/icons/link.png";
 import TermIcon from "./assets/images/icons/term.png";
-import LogoIcon from "./assets/images/icons/logo.png";
 import WarnIcon from "./assets/images/icons/warning.png";
 
-export type WindowType = "popup" | "command-prompt" | "portfolio";
+export type WindowType = "popup" | "command-prompt" | "bio" | "links";
 export type WindowPopupType = "bigfoot" | "bug" | "horoscope" | "movies" | "shop" | "spagett";
 
 export type WindowState = {
@@ -39,7 +40,7 @@ export type WindowAction =
       width: number;
       height: number;
       windowType: WindowType; 
-      popupType: WindowPopupType 
+      popupType: WindowPopupType | null
     }
   | { type: "CLOSE"; id: string }
   | { type: "FOCUS"; id: string }
@@ -58,8 +59,10 @@ let zCounter = 1;
 
 const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType) => {
   switch (windowType) {
-    case "portfolio":
-      return "Erik.exe";
+    case "bio":
+      return "Bio";
+    case "links":
+      return "Links";
     case "command-prompt":
       return "Command Prompt";
     case "popup":
@@ -88,8 +91,10 @@ const getWindowIcon = (windowType: WindowType) => {
   switch (windowType) {
     case "command-prompt":
       return TermIcon;
-    case "portfolio":
-      return LogoIcon;
+    case "bio":
+      return NotepadIcon;
+    case "links":
+      return LinkIcon;
     case "popup":
       return WarnIcon;
     default:

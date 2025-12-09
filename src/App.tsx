@@ -4,6 +4,8 @@ import StartBar from './StartBar';
 import Desktop from './Desktop';
 import Popups from './Popups';
 import Wallpaper from './Wallpaper';
+import DesktopItems from './DesktopItems';
+import BioWindow from './BioWindow';
 import './App.css';
 
 const App = () => {
@@ -12,15 +14,18 @@ const App = () => {
 
   return (
     <>
-      <div className='c-app'>
+      <div className='c-app' style={{opacity: booted ? 1 : 0}}>
         <Wallpaper />
         <Desktop ref={desktopRef}>
+          <DesktopItems
+            desktopRef={desktopRef} />
           {
             booted
             ? <Popups
                 bounds={desktopRef} />
             : null
           }
+          <BioWindow />
         </Desktop>
         <StartBar />
       </div>

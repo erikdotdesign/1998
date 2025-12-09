@@ -29,8 +29,7 @@ const StartBar = () => {
           startMenuOpen={startMenuOpen}
           setStartMenuOpen={setStartMenuOpen} />
         <StartMenu 
-          startMenuOpen={startMenuOpen}
-          setStartMenuOpen={setStartMenuOpen} />
+          startMenuOpen={startMenuOpen} />
         <button 
           className={`c-start-bar__btn c-start-bar__btn--start ${startMenuOpen ? "active" : ''}`}
           onClick={() => setStartMenuOpen(!startMenuOpen)}>

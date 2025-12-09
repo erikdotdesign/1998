@@ -12,7 +12,7 @@ const StartMenuCursor = ({
   const transitions = useTransition(
     startMenuOpen,
     {
-      from: { transform: `translate(-100px, 12px)` },
+      from: { transform: `translate(-100px, -500px)` },
       enter: { transform: `translate(40px, 12px)` },
       leave: { transform: `translate(-100px, 12px)` },
       delay: 125,
