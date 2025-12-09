@@ -62,6 +62,7 @@ const WindowView = ({
       onResizeStop={onResizeStop}
       bounds={bounds || undefined}
       dragHandleClassName="title-bar"
+      cancel=".title-bar-controls button"
       minWidth={200}
       minHeight={100}
       enableResizing={{
@@ -84,6 +85,12 @@ const WindowView = ({
         left: "cursor--resize-ew",
         right: "cursor--resize-ew",
       }}
+      resizeHandleStyles={{
+        bottomRight: { width: "24px", height: "24px" },
+        bottomLeft: { width: "24px", height: "24px" },
+        topLeft: { width: "24px", height: "24px" },
+        topRight: { width: "24px", height: "24px" },
+      }}
       style={{ zIndex: z }}>
       <div
         {...props}
@@ -93,7 +100,7 @@ const WindowView = ({
           className={`title-bar ${inactive ? "inactive" : ""}`}
           onDoubleClick={onMaximize}>
           <div className="title-bar-left">
-            {icon ? <img className="title-bar-icon" src={icon as string} /> : null}
+            {icon ? <img className="title-bar-icon" src={icon as string} draggable="false" /> : null}
             <div className="title-bar-text">{title}</div>
           </div>
           <div className="title-bar-controls">

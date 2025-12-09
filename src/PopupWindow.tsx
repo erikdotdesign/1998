@@ -70,8 +70,8 @@ const PopupWindow = ({
   return (
     <WindowContainer id={id}>
       <a className="c-window__ad" onClick={onPopupClick}>
-        <img src={content?.img} />
-        <img src={content?.text} />
+        <img src={content?.img} draggable="false" />
+        <img src={content?.text} draggable="false" />
       </a>
     </WindowContainer>
   );

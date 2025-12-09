@@ -13,8 +13,8 @@ const App = () => {
   return (
     booted
     ? <div className='c-app'>
+        <Wallpaper />
         <Desktop ref={desktopRef}>
-          <Wallpaper />
           <Popups
             bounds={desktopRef} />
         </Desktop>

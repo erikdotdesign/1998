@@ -1,11 +1,18 @@
 .c-start-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-start-bar__bar {
   position: relative;
   width: 100%;
+  box-shadow: var(--border-window-outer), var(--border-window-inner);
   background: var(--surface);
+  padding: 4px;
   display: flex;
-  padding: 4px 2px 2px 2px;
   gap: 4px;
-  box-shadow: 0 1px 0 0 var(--button-face) inset, 0 2px 0 0 var(--button-highlight) inset;
+  min-height: 40px;
 }
 
 .c-start-bar__divider {
@@ -17,14 +24,14 @@
 .c-start-bar__btn {
   display: flex;
   align-items: center;
-  gap: 3px;
-  padding: 0 5px;
+  gap: 4px;
+  padding: 0 8px;
   min-width: 0;
-  flex-basis: 150px;
+  flex-basis: 200px;
 
   img {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
   }
 
   span {
@@ -60,10 +67,16 @@
   }
 }
 
+.c-start-bar__main {
+  flex: 1;
+  display: flex;
+  min-width: 0;
+}
+
 .c-start-bar__windows {
   flex: 1;
   display: flex;
-  gap: 3px;
+  gap: 4px;
   min-width: 0;
 }
 
@@ -82,7 +95,33 @@
   }
 }
 
+/* .c-start-bar__time {
+  transform: rotate(180deg) scaleX(-1);
+} */
+
+/* --- TABLET MODE --- */
+@media (max-width: 1024px) {
+  .c-start-bar__bar {
+    overflow: hidden;
+      
+    .c-start-bar__main {
+      overflow: scroll;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .c-start-bar__windows {
+      min-width: auto;
+    }
+  }
+}
+
+/* --- MOBILE MODE --- */
 @media (max-width: 480px) {
+  /* Keep your existing mobile rules */
   .c-start-bar__btn {
     &.c-start-bar__btn--window {
       flex-basis: auto;
@@ -90,7 +129,7 @@
       min-width: 0;
     }
   }
-
+  
   .c-start-bar__btn--window *:not(img) {
     display: none;
   }

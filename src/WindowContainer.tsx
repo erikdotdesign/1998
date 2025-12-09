@@ -51,15 +51,10 @@ const WindowContainer = ({
         }
 
         dispatch({
-          type: "MOVE",
+          type: "UPDATE",
           id: win.id,
           x: newWinX,
-          y: newWinY
-        });
-
-        dispatch({
-          type: "RESIZE",
-          id: win.id,
+          y: newWinY,
           width: newWinWidth,
           height: newWinHeight
         });

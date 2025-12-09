@@ -78,6 +78,25 @@
 
 body {
   font-family: "Pixelated MS Sans Serif", Arial;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+button,
+label,
+input,
+legend,
+textarea,
+select,
+option,
+table,
+ul.tree-view,
+.window,
+.title-bar,
+li[role=tab] {
+  font-family: "Pixelated MS Sans Serif", Arial;
+  -webkit-font-smoothing: none;
+  font-size: 16px;
 }
 
 pre {
@@ -98,12 +117,13 @@ pre {
 }
 
 .title-bar {
-  max-height: 20px;
+  max-height: 32px;
+  padding: 4px;
 }
 
 .title-bar-icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .title-bar-text {
@@ -111,6 +131,41 @@ pre {
   white-space: nowrap;
   text-overflow: ellipsis;
   margin-right: 0;
+}
+
+.title-bar-controls button {
+  display: block;
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0;
+}
+
+.title-bar-controls button[aria-label=Maximize], .title-bar-controls button[aria-label].maximize {
+  background-size: 16px 16px;
+  background-position: top 4px left 4px;
+}
+
+.title-bar-controls button[aria-label=Restore], .title-bar-controls button[aria-label].restore {
+  background-size: 16px 16px;
+  background-position: top 4px left 4px;
+}
+
+.title-bar-controls button[aria-label=Minimize], .title-bar-controls button[aria-label].minimize {
+  background-size: 12px 4px;
+  background-position: bottom 4px left 6px;
+}
+
+.title-bar-controls button[aria-label=Close], .title-bar-controls button[aria-label].close {
+  background-size: 16px 14px;
+  background-position: top 5px left 4px;
+  margin-left: 2px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  min-height: 32px;
+  padding: 0 24px;
 }
 
 button.active {
@@ -121,6 +176,7 @@ button.active {
 .window {
   display: flex;
   flex-direction: column;
+  padding: 4px;
 }
 
 .window-body {

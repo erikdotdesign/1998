@@ -47,7 +47,8 @@ export type WindowAction =
   | { type: "MAXIMIZE"; id: string }
   | { type: "RESTORE"; id: string }
   | { type: "MOVE"; id: string; x: number; y: number }
-  | { type: "RESIZE"; id: string; width: number; height: number };
+  | { type: "RESIZE"; id: string; width: number; height: number }
+  | { type: "UPDATE"; id: string; x: number; y: number; width: number; height: number };
 
 let zCounter = 1;
 
@@ -285,6 +286,16 @@ const windowReducer = (state: WindowStore, action: WindowAction): WindowStore =>
       return {
         ...state,
         [action.id]: { ...target, width: action.width, height: action.height }
+      };
+    }
+
+    case "UPDATE": {
+      const target = state[action.id];
+      if (!target) return state;
+
+      return {
+        ...state,
+        [action.id]: { ...target, x: action.x, y: action.y, width: action.width, height: action.height }
       };
     }
 
