@@ -1,23 +1,31 @@
-import { forwardRef } from "react";
+import { useRef } from "react";
+import Popups from './Popups';
+import DesktopItems from './DesktopItems';
+import BioWindow from './BioWindow';
+import LinksWindow from './LinksWindow';
+import RedDragon from './RedDragon';
 
 import "./Desktop.css";
 
-type DesktopProps = {
-  children: React.ReactNode;
-};
+const Desktop = () => {
+  const desktopRef = useRef(null);
 
-const Desktop = forwardRef<HTMLDivElement, DesktopProps>(({
-  children
-}, ref) => {
   return (
     <div 
-      ref={ref}
+      ref={desktopRef}
       className="c-desktop">
       <div className="c-desktop__inner">
-        {children}
+        <DesktopItems
+          desktopRef={desktopRef} />
+        <Popups
+          desktopRef={desktopRef} />
+        <RedDragon
+          desktopRef={desktopRef} />
+        <BioWindow />
+        <LinksWindow />
       </div>
     </div>
   );
-});
+};
 
 export default Desktop;

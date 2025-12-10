@@ -2,6 +2,7 @@ import NotepadIcon from "./assets/images/icons/notepad.png";
 import LinkIcon from "./assets/images/icons/link.png";
 import TermIcon from "./assets/images/icons/term.png";
 import WarnIcon from "./assets/images/icons/warning.png";
+import RedDragonIcon from "./assets/images/icons/red-dragon.png";
 
 export type WindowType = "popup" | "command-prompt" | "bio" | "links";
 export type WindowPopupType = "bigfoot" | "bug" | "horoscope" | "movies" | "music" | "nessy" | "shop" | "spagett";
@@ -65,7 +66,7 @@ const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType) => {
     case "links":
       return "Links";
     case "command-prompt":
-      return "Command Prompt";
+      return "RED_DRAGON.EXE";
     case "popup":
       switch (popupType) {
         case "bigfoot":
@@ -95,7 +96,7 @@ const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType) => {
 const getWindowIcon = (windowType: WindowType) => {
   switch (windowType) {
     case "command-prompt":
-      return TermIcon;
+      return RedDragonIcon;
     case "bio":
       return NotepadIcon;
     case "links":

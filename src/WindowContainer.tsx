@@ -97,6 +97,7 @@ const WindowContainer = forwardRef<HTMLDivElement, WindowContainerProps>(({
 
         onMouseDown={() => dispatch({ type: "FOCUS", id })}
         
+        onDragStart={() => dispatch({ type: "FOCUS", id })}
         onDragStop={(e, d) => {
           dispatch({ type: "MOVE", id, x: d.x, y: d.y });
         }}

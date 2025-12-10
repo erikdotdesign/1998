@@ -7,7 +7,11 @@ import PopupWindow from "./PopupWindow";
 const POPUP_WIDTH = 300;
 const POPUP_HEIGHT = 475;
 
-const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => {
+const Popups = ({ 
+  desktopRef 
+}: { 
+  desktopRef: React.RefObject<HTMLElement | null> 
+}) => {
   const { windows, dispatch } = useWindowManager();
 
   const didMount = useRef(false);
@@ -20,7 +24,7 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
     popupWidth: number,
     popupHeight: number
   ) => {
-    const el = bounds.current;
+    const el = desktopRef.current;
     if (!el) return { x: 100, y: 100 };
 
     const { width: bw, height: bh } = el.getBoundingClientRect();
@@ -49,7 +53,7 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
       y,
       width: POPUP_WIDTH,
       height: POPUP_HEIGHT,
-      bounds: bounds as React.RefObject<HTMLElement>,
+      bounds: desktopRef as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupSequence[index]
     });
@@ -69,7 +73,7 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
       y,
       width: POPUP_WIDTH,
       height: POPUP_HEIGHT,
-      bounds: bounds as React.RefObject<HTMLElement>,
+      bounds: desktopRef as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupType
     });
@@ -77,7 +81,7 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
 
   // Automatically spawn first popup
   useEffect(() => {
-    if (!didMount.current && bounds.current) {
+    if (!didMount.current && desktopRef.current) {
       didMount.current = true;
       setTimeout(() => {
         openPopup(0);

@@ -3,7 +3,7 @@ import useWindowManager from './WindowManager';
 import './Crash.css';
 
 const Crash = ({
-  duration = 5000,
+  duration = 7000,
   setCrashed,
   setBooted
 }: {

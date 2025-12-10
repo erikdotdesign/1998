@@ -1,5 +1,5 @@
 import { useTransition, animated } from "@react-spring/web";
-import cursorPng from "./assets/images/cursors/pointer.svg";
+import cursorPng from "./assets/images/cursors/red-dragon.png";
 
 const StartMenuCursor = ({
   startMenuOpen,
@@ -15,10 +15,14 @@ const StartMenuCursor = ({
       from: { transform: `translate(-100px, -500px)` },
       enter: { transform: `translate(40px, 12px)` },
       leave: { transform: `translate(-100px, 12px)` },
-      delay: 125,
-      config: { tension: 220, friction: 26 },
+      // delay: 125,
+      config: { duration: 1200 },
       onRest: () => {
-        if (startMenuOpen) setStartMenuOpen(false);
+        if (startMenuOpen) {
+          setTimeout(() => {
+            setStartMenuOpen(false);
+          }, 500);
+        }
       }
     }
   );
@@ -31,8 +35,8 @@ const StartMenuCursor = ({
         draggable={false}
         style={{
           position: "fixed",
-          width: 40,
-          height: 40,
+          width: 32,
+          height: 32,
           zIndex: 9999,
           pointerEvents: "none",
           ...style

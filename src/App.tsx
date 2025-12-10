@@ -4,18 +4,13 @@ import useWindowManager from './WindowManager';
 import Boot from './Boot';
 import StartBar from './StartBar';
 import Desktop from './Desktop';
-import Popups from './Popups';
 import Wallpaper from './Wallpaper';
-import DesktopItems from './DesktopItems';
-import BioWindow from './BioWindow';
-import LinksWindow from './LinksWindow';
 import Crash from './Crash';
 import './App.css';
 
 const App = () => {
   const { windows } = useWindowManager();
   const appRef = useRef(null);
-  const desktopRef = useRef(null);
   const [booted, setBooted] = useState<boolean>(false);
   const [crashed, setCrashed] = useState<boolean>(false);
   const popups = Object.values(windows).filter(w => w.windowType === "popup");
@@ -64,19 +59,14 @@ const App = () => {
         className='c-app' 
         style={{opacity: booted ? 1 : 0}}>
         <Wallpaper />
-        <Desktop ref={desktopRef}>
-          <DesktopItems
-            desktopRef={desktopRef} />
-          {
-            booted
-            ? <Popups
-                bounds={desktopRef} />
-            : null
-          }
-          <BioWindow />
-          <LinksWindow />
-        </Desktop>
-        <StartBar />
+        {
+          booted
+          ? <>
+              <Desktop />
+              <StartBar />
+            </>
+          : null
+        }
       </div>
       {
         !booted

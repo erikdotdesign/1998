@@ -23,6 +23,7 @@ export type WindowViewProps = {
   resizable?: boolean;
   bounds?: HTMLElement | null;
 
+  onDragStart?: RndDragCallback;
   onDragStop?: RndDragCallback;
   onResizeStop?: RndResizeCallback;
   onMouseDown?: (e: React.MouseEvent) => void;
@@ -48,6 +49,7 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
   resizable = false,
   bounds,
   menu = [], // default empty
+  onDragStart,
   onDragStop,
   onResizeStop,
   onMouseDown,
@@ -86,6 +88,7 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
       ref={ref}
       size={{ width, height }}
       position={{ x, y }}
+      onDragStart={onDragStart}
       onDragStop={onDragStop}
       onResizeStop={onResizeStop}
       bounds={bounds || undefined}
