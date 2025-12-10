@@ -6,7 +6,7 @@ const COMMANDS = [
   "Initializing system...", 
   "Loading user preferences...", 
   "Checking vibes...", 
-  "Starting FakeOS 98..."
+  "Starting FakeOS 98 © ™..."
 ];
 
 const DOSBoot = ({

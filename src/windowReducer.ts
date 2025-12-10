@@ -43,6 +43,7 @@ export type WindowAction =
       popupType: WindowPopupType | null
     }
   | { type: "CLOSE"; id: string }
+  | { type: "CLOSE_ALL" }
   | { type: "FOCUS"; id: string }
   | { type: "MINIMIZE"; id: string }
   | { type: "MAXIMIZE"; id: string }
@@ -162,6 +163,10 @@ const windowReducer = (state: WindowStore, action: WindowAction): WindowStore =>
       }
 
       return newState;
+    }
+
+    case "CLOSE_ALL": {
+      return {};
     }
 
     case "FOCUS": {

@@ -13,6 +13,7 @@
     "@react-spring/web": "^10.0.3",
     "98.css": "^0.1.21",
     "postprocessing": "^6.38.0",
+    "powerglitch": "^2.5.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-rnd": "^10.5.2",
