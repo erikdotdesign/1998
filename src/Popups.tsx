@@ -12,7 +12,7 @@ const Popups = ({ bounds }: { bounds: React.RefObject<HTMLElement | null> }) => 
 
   const didMount = useRef(false);
 
-  const popupSequence: WindowPopupType[] = ["bug", "shop", "horoscope", "movies", "spagett", "bigfoot"];
+  const popupSequence: WindowPopupType[] = ["music", "horoscope", "nessy", "bug", "shop", "movies", "spagett", "bigfoot"];
 
   const [popupIndex, setPopupIndex] = useState<number>(0);
 

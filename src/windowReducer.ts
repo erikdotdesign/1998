@@ -4,7 +4,7 @@ import TermIcon from "./assets/images/icons/term.png";
 import WarnIcon from "./assets/images/icons/warning.png";
 
 export type WindowType = "popup" | "command-prompt" | "bio" | "links";
-export type WindowPopupType = "bigfoot" | "bug" | "horoscope" | "movies" | "shop" | "spagett";
+export type WindowPopupType = "bigfoot" | "bug" | "horoscope" | "movies" | "music" | "nessy" | "shop" | "spagett";
 
 export type WindowState = {
   id: string;
@@ -73,9 +73,13 @@ const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType) => {
         case "bug":
           return "Virus Detected!";
         case "horoscope":
-          return "Daily Horoscope!";
+          return "Your Horoscope!";
         case "movies":
           return "Free Movies!";
+        case "music":
+          return "Free Music!";
+        case "nessy":
+          return "Nessy Found!";
         case "shop":
           return "Money Money Money!";
         case "spagett":

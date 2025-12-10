@@ -31,8 +31,8 @@ const StartMenuCursor = ({
         draggable={false}
         style={{
           position: "fixed",
-          width: 32,
-          height: 32,
+          width: 40,
+          height: 40,
           zIndex: 9999,
           pointerEvents: "none",
           ...style

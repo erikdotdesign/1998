@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, forwardRef } from "react";
 import { Rnd, type RndDragCallback, type RndResizeCallback } from "react-rnd";
 
 import "./WindowView.css";
@@ -35,7 +35,7 @@ export type WindowViewProps = {
   children?: React.ReactNode;
 } & React.HTMLAttributes<HTMLDivElement>;
 
-const WindowView = ({
+const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
   title,
   icon,
   inactive = false,
@@ -56,7 +56,7 @@ const WindowView = ({
   onMaximize,
   children,
   ...props
-}: WindowViewProps) => {
+}, ref) => {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const menuRef = useRef<HTMLUListElement>(null);
 
@@ -83,6 +83,7 @@ const WindowView = ({
 
   return (
     <Rnd
+      ref={ref}
       size={{ width, height }}
       position={{ x, y }}
       onDragStop={onDragStop}
@@ -162,6 +163,6 @@ const WindowView = ({
       </div>
     </Rnd>
   );
-};
+});
 
 export default WindowView;

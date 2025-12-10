@@ -56,7 +56,7 @@ const Wallpaper = () => {
     const viewer = new SynthwaveRunner(canvasRef.current, { 
       width: 1200,
       height: 1200,
-      onZoomChange: (zoom: number) => runnerDispatch({ type: "SET_ZOOM", zoom })
+      controls: false
     });
 
     viewer.setScene(runnerState);

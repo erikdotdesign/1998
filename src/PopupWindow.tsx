@@ -16,6 +16,10 @@ import ShopImg from "./assets/images/ad/ad-shop_img.webp";
 import ShopText from "./assets/images/ad/ad-shop_overlay.webp";
 import SpagettImg from "./assets/images/ad/ad-spagett_img.webp";
 import SpagettText from "./assets/images/ad/ad-spagett_overlay.webp";
+import MusicImg from "./assets/images/ad/ad-music_img.webp";
+import MusicText from "./assets/images/ad/ad-music_overlay.webp";
+import NessyImg from "./assets/images/ad/ad-nessy_img.webp";
+import NessyText from "./assets/images/ad/ad-nessy_overlay.webp";
 
 const popupWindowContent = (popupType: WindowPopupType) => {
   switch(popupType) {
@@ -38,6 +42,16 @@ const popupWindowContent = (popupType: WindowPopupType) => {
       return {
         img: MoviesImg,
         text: MoviesText
+      };
+    case "music":
+      return {
+        img: MusicImg,
+        text: MusicText
+      };
+    case "nessy":
+      return {
+        img: NessyImg,
+        text: NessyText
       };
     case "shop":
       return {
@@ -67,7 +81,9 @@ const PopupWindow = ({
   const content = popupWindowContent(win.popupType as WindowPopupType);
 
   return (
-    <WindowContainer id={id} onClose={onClose}>
+    <WindowContainer 
+      id={id} 
+      onClose={onClose}>
       <div className='c-popup-window'>
         <a className="c-popup-window__ad" onClick={onPopupClick}>
           <img src={content?.img} draggable="false" />

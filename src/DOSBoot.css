@@ -2,7 +2,6 @@
   position: absolute;
   inset: 0;
   z-index: 9999;
-  cursor: none;
   display: flex;
   flex-direction: column;
   width: 100vw;

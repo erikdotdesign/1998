@@ -19,6 +19,8 @@ const App = () => {
   const [booted, setBooted] = useState<boolean>(false);
   const [crashed, setCrashed] = useState<boolean>(false);
   const popups = Object.values(windows).filter(w => w.windowType === "popup");
+  const ids = popups.map(p => p.id);
+  const idsKey = ids.join(",");
 
   if (popups.length > 6 && !crashed) {
     setCrashed(true);
@@ -38,22 +40,22 @@ const App = () => {
         },
         glitchTimeSpan: {
           start: 0,
-          end: popups.length * 0.3,
+          end: popups.length * 0.15,
         },
         shake: {
           velocity: popups.length * 5,
-          amplitudeX: (popups.length - 1) * 0.2,
-          amplitudeY: (popups.length - 1) * 0.2,
+          amplitudeX: (popups.length - 1) * 0.01,
+          amplitudeY: (popups.length - 1) * 0.01,
         },
         slice: {
-          count: 6,
+          count: 3,
           velocity: popups.length * 15,
           minHeight: popups.length * 0.02,
           maxHeight: popups.length * 0.15,
         },
       }
     );
-  }, [popups.length]);
+  }, [popups.length, idsKey]);
 
   return (
     <>

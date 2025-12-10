@@ -40,7 +40,7 @@ const Crash = ({
   return (
     <div className='c-crash'>
       <pre>
-        {`A problem has been detected and FakeOS 98 © ™ has been shut down to prevent damage to your device.\n\nThe problem seems to be caused by the following file: U N K N O W N\n\nTOO_MANY_POP_UPS\n\nRestarting in ${secondsLeft}s`}
+        {`A problem has been detected and Portfolio 98 has been shut down to prevent damage to your device.\n\nThe problem seems to be caused by the following file: RED_DRAGON.EXE\n\nTOO_MANY_POPUPS\n\nRestarting in ${secondsLeft}s`}
       </pre>
     </div>
   );

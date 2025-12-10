@@ -1,19 +1,21 @@
 import WindowView, { type WindowMenuItem } from "./WindowView";
 import useWindowManager from "./WindowManager";
-import { useEffect } from "react";
+import { forwardRef, useEffect } from "react";
 import type { WindowState } from "./windowReducer";
 
-const WindowContainer = ({ 
-  id,
-  children,
-  menu,
-  onClose
-}: { 
+type WindowContainerProps = { 
   id: string;
   children: React.ReactNode;
   menu?: WindowMenuItem[];
   onClose?: (window: WindowState) => void;
-}) => {
+};
+
+const WindowContainer = forwardRef<HTMLDivElement, WindowContainerProps>(({ 
+  id,
+  children,
+  menu,
+  onClose
+}, ref) => {
   const { windows, dispatch } = useWindowManager();
 
   const win = windows[id]; // your reducer handles this
@@ -79,6 +81,7 @@ const WindowContainer = ({
     win.minimized
     ? null
     : <WindowView
+        ref={ref}
         title={win.title}
         icon={win.icon}
         inactive={!win.focused}
@@ -122,6 +125,6 @@ const WindowContainer = ({
         {children}
       </WindowView>
   );
-};
+});
 
 export default WindowContainer;

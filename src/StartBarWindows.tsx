@@ -51,7 +51,7 @@ const StartBarWindows = ({
                   });
                 }
               }}>
-              { win.icon ? <img src={win.icon} /> : null }
+              { win.icon ? <img src={win.icon} draggable={false} /> : null }
               <span>{ win.title }</span>
             </button>
           )
