@@ -1,6 +1,5 @@
 import NotepadIcon from "./assets/images/icons/notepad.png";
 import LinkIcon from "./assets/images/icons/link.png";
-import TermIcon from "./assets/images/icons/term.png";
 import WarnIcon from "./assets/images/icons/warning.png";
 import RedDragonIcon from "./assets/images/icons/red-dragon.png";
 
@@ -59,7 +58,7 @@ let zCounter = 1;
 // Helpers
 // --------------------------
 
-const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType) => {
+const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType | null) => {
   switch (windowType) {
     case "bio":
       return "Bio";

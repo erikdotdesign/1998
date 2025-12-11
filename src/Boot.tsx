@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import DOSBoot from "./DosBoot";
+import DOSBoot from "./DOSBoot";
 import OSBoot from "./OSBoot";
 
 const Boot = ({

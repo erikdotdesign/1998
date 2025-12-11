@@ -85,7 +85,7 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
 
   return (
     <Rnd
-      ref={ref}
+      ref={ref as React.Ref<Rnd>}
       size={{ width, height }}
       position={{ x, y }}
       onDragStart={onDragStart}
