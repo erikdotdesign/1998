@@ -94,8 +94,8 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
       bounds={bounds || undefined}
       dragHandleClassName="title-bar"
       cancel=".title-bar-controls button"
-      minWidth={300}
-      minHeight={300}
+      minWidth={200}
+      minHeight={200}
       enableResizing={{
         bottomRight: resizable,
         bottom: resizable,

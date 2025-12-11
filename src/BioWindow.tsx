@@ -25,7 +25,7 @@ const BioWindow = () => {
         {label: "Edit", submenu: [{label: "Empty", disabled: true}]}, 
         {label: "Help", submenu: [{label: "Empty", disabled: true}]}
       ]}>
-      <div className="c-bio-window">
+      <div className="c-bio-window field-border">
         <textarea 
           className="c-bio-window__text-area"
           value={bio}

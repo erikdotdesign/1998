@@ -40,8 +40,8 @@ const LinksWindow = () => {
         {label: "Edit", submenu: [{label: "Empty", disabled: true}]}, 
         {label: "Help", submenu: [{label: "Empty", disabled: true}]}
       ]}>
-      <div className="c-links-window">
-        <div className="c-links-window__wrapper field-border">
+      <div className="c-links-window field-border">
+        <div className="c-links-window__wrapper">
           <div className="c-links-window__links">
             {
               LINKS.map((link, i) => (

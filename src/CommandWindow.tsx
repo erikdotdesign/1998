@@ -21,7 +21,7 @@ const CommandWindow = ({
         {label: "Edit", submenu: [{label: "Empty", disabled: true}]}, 
         {label: "Help", submenu: [{label: "Empty", disabled: true}]}
       ]}>
-      <div className="c-command-window">
+      <div className="c-command-window field-border">
         <pre 
           className="c-command-window__pre">
           {
