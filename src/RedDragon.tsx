@@ -56,11 +56,21 @@ const RedDragon = ({
             id: cmdWinId
           });
         }
-        setTicks(ticks + 1);
+        setTicks(t => t + 1);
       }
     }, 7000);
     return () => clearInterval(interval);
   }, [bioOpened, cmdWinId, ticks, desktopRef, dispatch]);
+
+  useEffect(() => {
+    if (!bioOpened) return;
+    
+    const resetInterval = setInterval(() => {
+      setTicks(0);
+    }, 3 * 60 * 1000); // 3 minutes
+
+    return () => clearInterval(resetInterval);
+  }, [bioOpened]);
 
   return (
     <CommandWindow

@@ -65,7 +65,7 @@ const StartMenu = ({
           START_MENU_ITEMS.map((item, i) => (
             <div 
               key={i}
-              className={`c-start-menu__item not-allowed c-start-menu__item--${item.type}`}>
+              className={`c-start-menu__item c-start-menu__item--${item.type}`}>
               {
                 item.type !== "divider"
                 ? <>

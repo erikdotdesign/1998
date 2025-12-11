@@ -1,8 +1,8 @@
+import { useState } from "react";
 import WindowContainer from "./WindowContainer";
 import useWindowManager from './WindowManager';
 
 import "./BioWindow.css";
-import { useState } from "react";
 
 const BioWindow = () => {
   const { windows, dispatch } = useWindowManager();

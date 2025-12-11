@@ -35,6 +35,7 @@
   align-items: center;
   padding: 0 8px;
   gap: 12px;
+  cursor: url("./assets/images/cursors/red-dragon-not-allowed.png") 0 0, not-allowed;
 
   p {
     flex: 1;

@@ -1,5 +1,5 @@
 import { useTransition, animated } from "@react-spring/web";
-import cursorPng from "./assets/images/cursors/red-dragon.png";
+import cursorPng from "./assets/images/cursors/red-dragon-pointer.png";
 
 const StartMenuCursor = ({
   startMenuOpen,
