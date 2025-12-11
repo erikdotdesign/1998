@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import type { SelectiveBloomEffect } from "postprocessing";
 import { loadTexture } from "./utils";
 
 import TEXTURE_PATH from "../assets/textures/grid.png";
@@ -12,15 +13,17 @@ export type PlaneProps = {
   emissive: { color: string };
   check: boolean;
   displacement: { scale: number };
-  bloomEffect?: any;
+  bloomEffect?: SelectiveBloomEffect | undefined;
 };
 
 export class Plane {
+  private props: PlaneProps;
   public mesh!: THREE.Mesh;
   static sharedGeometry?: THREE.PlaneGeometry;
   static sharedMaterial?: THREE.MeshStandardMaterial;
 
-  constructor(private props: PlaneProps) {
+  constructor(props: PlaneProps) {
+    this.props = props;
     if (!Plane.sharedGeometry) {
       Plane.sharedGeometry = new THREE.PlaneGeometry(
         props.tileSize,

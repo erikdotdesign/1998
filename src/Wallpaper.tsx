@@ -4,7 +4,7 @@ import runnerReducer from "./runnerReducer";
 import "./Wallpaper.css";
 
 const Wallpaper = () => {
-  const [runnerState, runnerDispatch] = useReducer(runnerReducer, {
+  const [runnerState] = useReducer(runnerReducer, {
     playing: true,
     zoom: 5,
     background: {

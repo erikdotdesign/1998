@@ -1,21 +1,27 @@
 import * as THREE from "three";
+import type { SelectiveBloomEffect } from "postprocessing";
 import { loadModel, createGradientTexture } from "./utils";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import PILLAR_PATH from "../assets/textures/pillar.glb";
 
 export type PillarsProps = {
   tileSize: number;
   colors: string[];
   visible: boolean;
-  bloomEffect?: any;
+  bloomEffect?: SelectiveBloomEffect;
 };
 
 export class Pillars {
+  private props: PillarsProps;
   public mesh!: THREE.InstancedMesh;
   private modelGeometry!: THREE.BufferGeometry;
   private material!: THREE.MeshStandardMaterial;
 
-  constructor(private props: PillarsProps) {}
+  constructor(props: PillarsProps) {
+    this.props = props;
+  }
 
   async init() {
     const pillarModel = await loadModel(PILLAR_PATH);

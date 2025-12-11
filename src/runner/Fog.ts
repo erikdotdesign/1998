@@ -8,11 +8,12 @@ export interface FogProps {
 }
 
 export class Fog {
+  private props: FogProps
   public fog!: THREE.FogExp2;
 
-  constructor(
-    private props: FogProps
-  ) {}
+  constructor(props: FogProps) {
+    this.props = props;
+  }
 
   init() {
     const { color, density } = this.props;

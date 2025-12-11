@@ -12,12 +12,14 @@ export interface TileProps {
 }
 
 export class Tile {
+  private props: TileProps;
   public group: THREE.Group = new THREE.Group();
   public plane: Plane;
   public palms: Palms;
   public pillars: Pillars;
 
-  constructor(private props: TileProps) {
+  constructor(props: TileProps) {
+    this.props = props;
     this.plane = new Plane(this.props.plane);
     this.palms = new Palms(this.props.palms);
     this.pillars = new Pillars(this.props.pillars);

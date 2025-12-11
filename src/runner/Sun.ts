@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import type { SelectiveBloomEffect } from "postprocessing";
 import { createGradientTexture, loadTexture, applyProps } from "./utils";
 
 import SUN_PATH from "../assets/textures/sun.png";
@@ -8,15 +9,16 @@ export interface SunProps {
   tileSize: number;
   colors: string[];
   visible: boolean;
-  bloomEffect: any;
+  bloomEffect: SelectiveBloomEffect | undefined;
 }
 
 export class Sun {
+  private props: SunProps;
   public mesh!: THREE.Mesh;
 
-  constructor(
-    private props: SunProps
-  ) {}
+  constructor(props: SunProps) {
+    this.props = props;
+  }
 
   async init() {
     const { colors, tileCount, tileSize, visible, bloomEffect } = this.props;

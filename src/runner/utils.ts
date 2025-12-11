@@ -44,6 +44,7 @@ export const loadModel = async (url: string) => {
   });
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const applyProps = (obj: any, target: any, map: any) => {
   for (const key in obj) {
     if (obj[key] === undefined) continue;

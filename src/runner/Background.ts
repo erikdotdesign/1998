@@ -9,11 +9,12 @@ export interface BackgroundProps {
 }
 
 export class Background {
+  private props: BackgroundProps
   public mesh!: THREE.Mesh;
 
-  constructor(
-    private props: BackgroundProps
-  ) {}
+  constructor(props: BackgroundProps) {
+    this.props = props;
+  }
 
   init() {
     const { tileCount, tileSize, colors, visible } = this.props;

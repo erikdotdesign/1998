@@ -1,7 +1,10 @@
 import * as THREE from "three";
+import type { SelectiveBloomEffect } from "postprocessing";
 import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { loadModel } from "./utils";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import PALM_PATH from "../assets/textures/palm.glb";
 
 export type PalmsProps = {
@@ -9,15 +12,18 @@ export type PalmsProps = {
   color: string;
   emissive: { color: string };
   visible: boolean;
-  bloomEffect?: any;
+  bloomEffect?: SelectiveBloomEffect | undefined;
 };
 
 export class Palms {
+  private props: PalmsProps;
   public group: THREE.Group = new THREE.Group();
   private meshes: THREE.Mesh[] = [];
   private materials: THREE.MeshStandardMaterial[] = [];
 
-  constructor(private props: PalmsProps) {}
+  constructor(props: PalmsProps) {
+    this.props = props;
+  }
 
   async init() {
     const palmModel = await loadModel(PALM_PATH);

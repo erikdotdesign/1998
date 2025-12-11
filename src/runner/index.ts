@@ -22,6 +22,7 @@ export interface RunnerOptions {
 }
 
 export class SynthwaveRunner {
+  private host: HTMLCanvasElement;
   private scene = new THREE.Scene();
   private camera = new THREE.PerspectiveCamera(CAMERA_CONFIG.fov, 1, CAMERA_CONFIG.near, CAMERA_CONFIG.far);
   private renderer?: THREE.WebGLRenderer;
@@ -48,7 +49,8 @@ export class SynthwaveRunner {
 
   private frameId?: number;
 
-  constructor(private host: HTMLCanvasElement, opts: RunnerOptions = {}) {
+  constructor(host: HTMLCanvasElement, opts: RunnerOptions = {}) {
+    this.host = host;
     const { 
       width = host.clientWidth, 
       height = host.clientHeight, 
