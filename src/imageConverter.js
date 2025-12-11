@@ -11,7 +11,7 @@ const defaultOptions = { quality: 80 };
 // Optional per-directory overrides
 const conversionMap = {
   boot: { quality: 80 },
-  ad: { quality: 10 }
+  ad: { quality: 80 }
 };
 
 // Ensure directory exists

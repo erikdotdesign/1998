@@ -114,7 +114,7 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
         <div
           className={`title-bar ${inactive ? "inactive" : ""}`}
           onDoubleClick={onMaximize}>
-          <div className="title-bar-left">
+          <div className="title-bar-title">
             {icon && <img className="title-bar-icon" src={icon as string} draggable="false" />}
             <div className="title-bar-text">{title}</div>
           </div>

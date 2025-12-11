@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+import { PowerGlitch } from 'powerglitch';
 import type { WindowPopupType, WindowState } from './windowReducer';
 import WindowContainer from "./WindowContainer";
 import useWindowManager from './WindowManager';
@@ -77,18 +79,50 @@ const PopupWindow = ({
 }) => {
   const { windows } = useWindowManager();
   const win = windows[id];
+  const imgRef = useRef(null);
 
   const content = popupWindowContent(win.popupType as WindowPopupType);
+
+  useEffect(() => {
+    if (!imgRef.current) return;
+    PowerGlitch.glitch(
+      imgRef.current,
+      {
+        playMode: 'always',
+        hideOverflow: false,
+        timing: {
+          duration: 2000,
+        },
+        glitchTimeSpan: {
+          start: 0,
+          end: 0.5,
+        },
+        shake: {
+          velocity: 5,
+          amplitudeX: 0.02,
+          amplitudeY: 0.02,
+        },
+        slice: {
+          count: 3,
+          velocity: 15,
+          minHeight: 0.02,
+          maxHeight: 0.15,
+        },
+      }
+    );
+  }, []);
 
   return (
     <WindowContainer 
       id={id} 
       onClose={onClose}>
       <div className='c-popup-window'>
-        <a className="c-popup-window__ad" onClick={onPopupClick}>
-          <img src={content?.img} draggable="false" />
-          <img src={content?.text} draggable="false" />
-        </a>
+        <div className="c-popup-window__ad-wrap" ref={imgRef}>
+          <a className="c-popup-window__ad" onClick={onPopupClick}>
+            <img src={content?.img} draggable="false" />
+            <img src={content?.text} draggable="false" />
+          </a>
+        </div>
       </div>
     </WindowContainer>
   );
