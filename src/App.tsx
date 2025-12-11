@@ -10,7 +10,7 @@ import './App.css';
 
 const App = () => {
   const { windows } = useWindowManager();
-  const appRef = useRef(null);
+  const glitchRef = useRef(null);
   const [booted, setBooted] = useState<boolean>(false);
   const [crashed, setCrashed] = useState<boolean>(false);
   const popups = Object.values(windows).filter(w => w.windowType === "popup");
@@ -22,9 +22,9 @@ const App = () => {
   }
 
   useEffect(() => {
-    if (!appRef.current) return;
+    if (!glitchRef.current) return;
     PowerGlitch.glitch(
-      appRef.current,
+      glitchRef.current,
       {
         playMode: 'always',
         hideOverflow: true,
@@ -55,18 +55,21 @@ const App = () => {
   return (
     <>
       <div 
-        ref={appRef}
         className='c-app' 
         style={{opacity: booted ? 1 : 0}}>
         <Wallpaper />
-        {
-          booted
-          ? <>
-              <Desktop />
-              <StartBar />
-            </>
-          : null
-        }
+        <div 
+          className='c-app__desktop'
+          ref={glitchRef}>
+          {
+            booted
+            ? <>
+                <Desktop />
+                <StartBar />
+              </>
+            : null
+          }
+        </div>
       </div>
       {
         !booted
