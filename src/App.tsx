@@ -43,7 +43,7 @@ const App = () => {
           amplitudeY: (popups.length - 1) * 0.01,
         },
         slice: {
-          count: 3,
+          count: 1,
           velocity: popups.length * 15,
           minHeight: popups.length * 0.02,
           maxHeight: popups.length * 0.15,

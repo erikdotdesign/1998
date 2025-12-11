@@ -39,7 +39,7 @@ const StartBar = () => {
           amplitudeY: 0.02,
         },
         slice: {
-          count: 3,
+          count: 1,
           velocity: 15,
           minHeight: 0.02,
           maxHeight: 0.15,
