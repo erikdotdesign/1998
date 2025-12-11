@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import { centerPosition } from "./helpers";
 import type { WindowType } from "./windowReducer";
 import useWindowManager from './WindowManager';
 import NoteIcon from "./assets/images/icons/note.png";
@@ -13,7 +14,7 @@ const DESKTOP_ITEMS = [{
   icon: LinkIcon,
   label: "Links",
   windowType: "links",
-  size: [500, 300]
+  size: [448, 300]
 }];
 
 const DesktopItems = ({
@@ -38,13 +39,14 @@ const DesktopItems = ({
         });
       }
     } else {
+      const position = centerPosition(desktopRef, size[0], size[1]);
       dispatch({
         type: "OPEN",
         id: uuidv4(),
         windowType: windowType,
         popupType: null,
-        x: 0,
-        y: 0,
+        x: position[0],
+        y: position[1],
         width: size[0],
         height: size[1],
         bounds: desktopRef as React.RefObject<HTMLElement>

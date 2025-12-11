@@ -71,7 +71,7 @@ const StartBar = () => {
           className={`c-start-bar__btn c-start-bar__btn--start ${startMenuOpen ? "active" : ''}`}
           onClick={() => setStartMenuOpen(!startMenuOpen)}>
           <img src={Logo} draggable="false" /> 
-          S t a r t
+          Start
         </button>
         <div className="c-start-bar__divider" />
         <div className="c-start-bar__main" ref={mainScrollRef}>

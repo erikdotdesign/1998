@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from "uuid";
+import { centerPosition } from './helpers';
 import useWindowManager from './WindowManager';
 import CommandWindow from './CommandWindow';
 
@@ -32,15 +33,17 @@ const RedDragon = ({
     const interval = setInterval(() => {
       if (ticks < COMMANDS.length) {
         if (!cmdWinId) {
+          const size = [548, 400];
+          const position = centerPosition(desktopRef, size[0], size[1]);
           dispatch({
             type: "OPEN",
             windowType: "command-prompt",
             popupType: null,
             id: uuidv4(),
-            x: 0,
-            y: 0,
-            width: 500,
-            height: 400,
+            x: position[0],
+            y: position[1],
+            width: size[0],
+            height: size[1],
             bounds: desktopRef as React.RefObject<HTMLElement>
           });
         } else {

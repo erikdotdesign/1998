@@ -183,7 +183,7 @@ button.active {
 
 .window-body {
   margin: 0;
-  padding: 8px;
+  padding: 4px;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -198,4 +198,45 @@ button.active {
   background-repeat: no-repeat;
   background-position: bottom right;
   /* background-size: 16px 16px; */
+}
+
+::-webkit-scrollbar {
+  width: 24px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: url("./assets/images/cursors/pointer.svg") 0 0, pointer;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 24px;
+}
+
+::-webkit-scrollbar-button:vertical:start {
+  height: 24px;
+  background-image: url("./assets/images/ui/button-up.svg");
+}
+
+::-webkit-scrollbar-button:vertical:end {
+  height: 24px;
+  background-image: url("./assets/images/ui/button-down.svg");
+}
+
+::-webkit-scrollbar-button:horizontal:start {
+  width: 24px;
+  background-image: url("./assets/images/ui/button-left.svg");
+}
+
+::-webkit-scrollbar-button:horizontal:end {
+  width: 24px;
+  background-image: url("./assets/images/ui/button-right.svg");
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement,
+::-webkit-scrollbar-button:horizontal:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment {
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  cursor: url("./assets/images/cursors/pointer.svg") 0 0, pointer;
 }
