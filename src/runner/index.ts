@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect } from "postprocessing";
+import { EffectComposer, EffectPass, RenderPass, SelectiveBloomEffect, GlitchEffect } from "postprocessing";
 
 import { type RunnerState } from "../runnerReducer";
 
@@ -31,6 +31,7 @@ export class SynthwaveRunner {
   private controls?: OrbitControls;
 
   private bloomEffect?: SelectiveBloomEffect;
+  private glitchEffect?: GlitchEffect;
 
   private fog?: Fog;
   private background?: Background;
@@ -122,7 +123,15 @@ export class SynthwaveRunner {
       intensity: 1, 
       radius: 0.6
     });
-    const effectPass = new EffectPass(this.camera, this.bloomEffect);
+
+    this.glitchEffect = new GlitchEffect();
+    this.glitchEffect.mode = 0;
+
+    const effectPass = new EffectPass(
+      this.camera, 
+      this.bloomEffect,
+      this.glitchEffect
+    );
 
     this.composer.addPass(renderPass);
     this.composer.addPass(effectPass);
@@ -151,6 +160,19 @@ export class SynthwaveRunner {
 
   updateSun(props: Partial<SunProps>) {
     this.sun?.setSun(props);
+  }
+
+  triggerGlitch(duration = 300) {
+    if (!this.glitchEffect) return;
+
+    // turn glitch ON
+    this.glitchEffect.mode = 2;
+
+    // turn glitch OFF after a bit
+    window.setTimeout(() => {
+      if (!this.glitchEffect) return;
+      this.glitchEffect.mode = 0;
+    }, duration);
   }
 
   private updateTiles(updater: (tile: Tile) => void) {

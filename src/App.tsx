@@ -57,7 +57,9 @@ const App = () => {
       <div 
         className='c-app' 
         style={{opacity: booted ? 1 : 0}}>
-        <Wallpaper />
+        <Wallpaper 
+          popupKey={idsKey}
+          popupsLength={popups.length} />
         <div 
           className='c-app__desktop'
           ref={glitchRef}>

@@ -3,7 +3,13 @@ import { SynthwaveRunner } from "./runner";
 import runnerReducer from "./runnerReducer";
 import "./Wallpaper.css";
 
-const Wallpaper = () => {
+const Wallpaper = ({
+  popupKey,
+  popupsLength
+}: {
+  popupKey: string;
+  popupsLength: number;
+}) => {
   const [runnerState] = useReducer(runnerReducer, {
     playing: true,
     zoom: 5,
@@ -68,6 +74,11 @@ const Wallpaper = () => {
       viewer.stopLoop(true);
     };
   }, []);
+
+  useEffect(() => {
+    if (!viewerRef.current) return;
+    viewerRef.current.triggerGlitch(popupsLength * 100);
+  }, [popupsLength, popupKey]);
 
   return (
     <canvas className="c-wallpaper" ref={canvasRef} />
