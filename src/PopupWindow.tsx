@@ -6,8 +6,8 @@ import useWindowManager from './WindowManager';
 
 import "./PopupWindow.css";
 
-import BigfootImg from "./assets/images/ad/ad-bigfoot_img.webp";
-import BigfootText from "./assets/images/ad/ad-bigfoot_overlay.webp";
+// import BigfootImg from "./assets/images/ad/ad-bigfoot_img.webp";
+// import BigfootText from "./assets/images/ad/ad-bigfoot_overlay.webp";
 import BugImg from "./assets/images/ad/ad-bug_img.webp";
 import BugText from "./assets/images/ad/ad-bug_overlay.webp";
 import HoroscopeImg from "./assets/images/ad/ad-horoscope_img.webp";
@@ -16,8 +16,8 @@ import MoviesImg from "./assets/images/ad/ad-movies_img.webp";
 import MoviesText from "./assets/images/ad/ad-movies_overlay.webp";
 import ShopImg from "./assets/images/ad/ad-shop_img.webp";
 import ShopText from "./assets/images/ad/ad-shop_overlay.webp";
-import SpagettImg from "./assets/images/ad/ad-spagett_img.webp";
-import SpagettText from "./assets/images/ad/ad-spagett_overlay.webp";
+// import SpagettImg from "./assets/images/ad/ad-spagett_img.webp";
+// import SpagettText from "./assets/images/ad/ad-spagett_overlay.webp";
 import MusicImg from "./assets/images/ad/ad-music_img.webp";
 import MusicText from "./assets/images/ad/ad-music_overlay.webp";
 import NessyImg from "./assets/images/ad/ad-nessy_img.webp";
@@ -25,11 +25,11 @@ import NessyText from "./assets/images/ad/ad-nessy_overlay.webp";
 
 const popupWindowContent = (popupType: WindowPopupType) => {
   switch(popupType) {
-    case "bigfoot":
-      return {
-        img: BigfootImg,
-        text: BigfootText
-      };
+    // case "bigfoot":
+    //   return {
+    //     img: BigfootImg,
+    //     text: BigfootText
+    //   };
     case "bug":
       return {
         img: BugImg,
@@ -60,11 +60,11 @@ const popupWindowContent = (popupType: WindowPopupType) => {
         img: ShopImg,
         text: ShopText
       };
-    case "spagett":
-      return {
-        img: SpagettImg,
-        text: SpagettText
-      };
+    // case "spagett":
+    //   return {
+    //     img: SpagettImg,
+    //     text: SpagettText
+    //   };
   }
 };
 
