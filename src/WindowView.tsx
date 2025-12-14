@@ -106,6 +106,22 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
         topLeft: resizable,
         bottomLeft: resizable,
       }}
+      resizeHandleClasses={{ 
+        bottomRight: "cursor--resize-nwse", 
+        topLeft: "cursor--resize-nwse",
+        topRight: "cursor--resize-nesw",
+        bottomLeft: "cursor--resize-nesw",
+        top: "cursor--resize-ns",
+        bottom: "cursor--resize-ns",
+        left: "cursor--resize-ew",
+        right: "cursor--resize-ew",
+      }}
+      resizeHandleStyles={{
+        bottomRight: { width: "32px", height: "32px" },
+        bottomLeft: { width: "24px", height: "24px" },
+        topLeft: { width: "24px", height: "24px" },
+        topRight: { width: "24px", height: "24px" },
+      }}
       style={{ zIndex: z }}>
       <div
         {...props}
