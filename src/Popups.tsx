@@ -17,7 +17,7 @@ const Popups = ({
 
   const didMount = useRef(false);
 
-  const popupSequence: WindowPopupType[] = ["music", "horoscope", "nessy", "bug", "shop", "movies", "spagett", "bigfoot"];
+  const popupSequence: WindowPopupType[] = ["music", "horoscope", "nessy", "bug", "shop", "movies"];
 
   const [popupIndex, setPopupIndex] = useState<number>(0);
 
