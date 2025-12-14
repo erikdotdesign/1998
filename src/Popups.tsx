@@ -4,8 +4,9 @@ import type { WindowPopupType, WindowState } from './windowReducer';
 import useWindowManager from './WindowManager';
 import PopupWindow from "./PopupWindow";
 
-const POPUP_WIDTH = 300;
-const POPUP_HEIGHT = 475;
+const BASE_WIDTH = 300;
+const BASE_HEIGHT = 475;
+const ASPECT = BASE_WIDTH / BASE_HEIGHT;
 
 const Popups = ({ 
   desktopRef 
@@ -19,6 +20,35 @@ const Popups = ({
   const popupSequence: WindowPopupType[] = ["music", "horoscope", "nessy", "bug", "shop", "movies", "spagett", "bigfoot"];
 
   const [popupIndex, setPopupIndex] = useState<number>(0);
+
+  const getPopupSize = () => {
+    if (!desktopRef.current) {
+      return { width: BASE_WIDTH, height: BASE_HEIGHT };
+    }
+
+    const { width: bw, height: bh } =
+      desktopRef.current.getBoundingClientRect();
+
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+    // max size we allow the popup to be
+    const maxWidth = isMobile ? bw * 0.55 : BASE_WIDTH;
+    const maxHeight = isMobile ? bh * 0.5 : BASE_HEIGHT;
+
+    let width = maxWidth;
+    let height = width / ASPECT;
+
+    // If height overflows, clamp by height instead
+    if (height > maxHeight) {
+      height = maxHeight;
+      width = height * ASPECT;
+    }
+
+    return {
+      width: Math.floor(width),
+      height: Math.floor(height),
+    };
+  };
 
   const getRandomPosition = (
     popupWidth: number,
@@ -44,15 +74,16 @@ const Popups = ({
 
     const id = uuidv4();
 
-    const { x, y } = getRandomPosition(POPUP_WIDTH, POPUP_HEIGHT);
+    const { width, height } = getPopupSize();
+    const { x, y } = getRandomPosition(width, height);
 
     dispatch({
       type: "OPEN",
       id,
       x,
       y,
-      width: POPUP_WIDTH,
-      height: POPUP_HEIGHT,
+      width,
+      height,
       bounds: desktopRef as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupSequence[index]
@@ -64,15 +95,16 @@ const Popups = ({
   const reOpenPopup = (popupType: WindowPopupType) => {
     const id = uuidv4();
 
-    const { x, y } = getRandomPosition(POPUP_WIDTH, POPUP_HEIGHT);
+    const { width, height } = getPopupSize();
+    const { x, y } = getRandomPosition(width, height);
 
     dispatch({
       type: "OPEN",
       id,
       x,
       y,
-      width: POPUP_WIDTH,
-      height: POPUP_HEIGHT,
+      width,
+      height,
       bounds: desktopRef as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupType
