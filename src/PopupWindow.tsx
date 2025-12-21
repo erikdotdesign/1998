@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { PowerGlitch } from 'powerglitch';
+import { PowerGlitchE } from "./PowerGlitchE";
 import type { WindowPopupType, WindowState } from './windowReducer';
 import WindowContainer from "./WindowContainer";
 import useWindowManager from './WindowManager';
@@ -85,7 +85,7 @@ const PopupWindow = ({
 
   useEffect(() => {
     if (!imgRef.current) return;
-    PowerGlitch.glitch(
+    PowerGlitchE.glitch(
       imgRef.current,
       {
         playMode: 'always',

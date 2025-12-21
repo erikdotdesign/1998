@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { PowerGlitch } from 'powerglitch';
+import { PowerGlitchE } from "./PowerGlitchE";
 import useWindowManager from './WindowManager';
 import Boot from './Boot';
 import StartBar from './StartBar';
@@ -23,7 +23,7 @@ const App = () => {
 
   useEffect(() => {
     if (!glitchRef.current) return;
-    PowerGlitch.glitch(
+    PowerGlitchE.glitch(
       glitchRef.current,
       {
         playMode: 'always',

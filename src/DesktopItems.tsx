@@ -4,6 +4,7 @@ import type { WindowType } from "./windowReducer";
 import useWindowManager from './WindowManager';
 import NoteIcon from "./assets/images/icons/note.png";
 import LinkIcon from "./assets/images/icons/link.png";
+import DoomIcon from "./assets/images/icons/doom.png";
 
 const DESKTOP_ITEMS = [{
   icon: NoteIcon,
@@ -15,6 +16,11 @@ const DESKTOP_ITEMS = [{
   label: "Links",
   windowType: "links",
   size: [448, 300]
+},{
+  icon: DoomIcon,
+  label: "Doom",
+  windowType: "doom",
+  size: [600, 530]
 }];
 
 const DesktopItems = ({

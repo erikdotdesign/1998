@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { PowerGlitch } from 'powerglitch';
+import { PowerGlitchE } from "./PowerGlitchE";
 import StartBarWindows from "./StartBarWindows";
 import useWindowManager from "./WindowManager";
 import StartMenu from "./StartMenu";
@@ -21,7 +21,7 @@ const StartBar = () => {
   
   useEffect(() => {
     if (!popupBarRef.current) return;
-    PowerGlitch.glitch(
+    PowerGlitchE.glitch(
       popupBarRef.current,
       {
         playMode: 'always',
