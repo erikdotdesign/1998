@@ -1,4 +1,4 @@
-import { useState, useLayoutEffect } from 'react';
+import { useState, useEffect } from 'react';
 import useWindowManager from './WindowManager';
 import './Crash.css';
 
@@ -12,10 +12,18 @@ const Crash = ({
   setBooted: (booted: boolean) => void;
 }) => {
   const [loaded, setLoaded] = useState(0);
-  const { dispatch } = useWindowManager();
+  const { windows, dispatch } = useWindowManager();
   const secondsLeft = Math.ceil(((100 - loaded) / 100) * (duration / 1000));
+
+  useEffect(() => {
+    if (Object.values(windows).length > 0) {
+      dispatch({
+        type: "CLOSE_ALL"
+      });
+    }
+  }, []);
   
-  useLayoutEffect(() => {
+  useEffect(() => {
     const start = performance.now();
 
     const tick = () => {
@@ -26,9 +34,6 @@ const Crash = ({
       if (progress < 100) {
         requestAnimationFrame(tick);
       } else {
-        dispatch({
-          type: "CLOSE_ALL"
-        });
         setCrashed(false);
         setBooted(false);
       }

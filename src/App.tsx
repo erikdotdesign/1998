@@ -14,7 +14,8 @@ const App = () => {
   const [booted, setBooted] = useState<boolean>(false);
   const [crashed, setCrashed] = useState<boolean>(false);
   const popups = Object.values(windows).filter(w => w.windowType === "popup");
-  const ids = popups.map(p => p.id);
+  const cmdWindow = Object.values(windows).filter(w => w.windowType === "command-prompt");
+  const ids = [...popups, ...cmdWindow].map(p => p.id);
   const idsKey = ids.join(",");
 
   if (popups.length > 6 && !crashed) {

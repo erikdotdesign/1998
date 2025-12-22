@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import "./DOSBoot.css";
 
@@ -18,7 +18,7 @@ const DOSBoot = ({
 }) => {
   const [loadCommands, setLoadCommands] = useState(['']);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const start = performance.now();
 
     const tick = () => {

@@ -16,8 +16,8 @@ const StartBar = () => {
   const popupBarRef = useRef<HTMLDivElement>(null);
   const popupScrollRef = useRef<HTMLDivElement>(null);
   const mainScrollRef = useRef<HTMLDivElement>(null);
-  const popups = Object.keys(windows).filter(id => windows[id].windowType === "popup");
-  const nonPopups = Object.keys(windows).filter(id => windows[id].windowType !== "popup");
+  const popups = Object.keys(windows).filter(id => windows[id].windowType === "popup" || windows[id].windowType === "command-prompt");
+  const nonPopups = Object.keys(windows).filter(id => windows[id].windowType !== "popup" && windows[id].windowType !== "command-prompt");
   
   useEffect(() => {
     if (!popupBarRef.current) return;

@@ -42,14 +42,15 @@ export type WindowAction =
       width: number;
       height: number;
       windowType: WindowType; 
-      popupType: WindowPopupType | null
+      popupType: WindowPopupType | null,
+      autoFocus?: boolean
     }
   | { type: "CLOSE"; id: string }
   | { type: "CLOSE_ALL" }
   | { type: "FOCUS"; id: string }
   | { type: "MINIMIZE"; id: string }
   | { type: "MAXIMIZE"; id: string }
-  | { type: "RESTORE"; id: string }
+  | { type: "RESTORE"; id: string, autoFocus?: boolean }
   | { type: "MOVE"; id: string; x: number; y: number }
   | { type: "RESIZE"; id: string; width: number; height: number }
   | { type: "UPDATE"; id: string; x: number; y: number; width: number; height: number };
@@ -63,7 +64,7 @@ let zCounter = 1;
 const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType | null) => {
   switch (windowType) {
     case "bio":
-      return "Bio";
+      return "Bio v3_final";
     case "command-prompt":
       return "RED_DRAGON.EXE";
     case "doom":
@@ -137,6 +138,14 @@ const focusOnly = (id: string, store: WindowStore): WindowStore => {
 const windowReducer = (state: WindowStore, action: WindowAction): WindowStore => {
   switch (action.type) {
     case "OPEN": {
+      const isFocused = "autoFocus" in action && action.autoFocus === true || !("autoFocus" in action);
+
+      // Find current highest z
+      const highestZ = Object.values(state).reduce((max, w) => Math.max(max, w.z), 0);
+
+      // Determine z-index for the new window
+      const newZ = isFocused ? ++zCounter : highestZ; // if unfocused, put behind top
+      
       const newState: WindowStore = {
         ...state,
         [action.id]: {
@@ -150,15 +159,15 @@ const windowReducer = (state: WindowStore, action: WindowAction): WindowStore =>
           y: action.y,
           width: action.width,
           height: action.height,
-          z: ++zCounter,
+          z: newZ,
           open: true,
           minimized: false,
-          focused: true,
+          focused: isFocused,
           maximized: false
         },
       };
 
-      return focusOnly(action.id, newState);
+      return isFocused ? focusOnly(action.id, newState) : newState;
     }
 
     case "CLOSE": {
@@ -280,17 +289,25 @@ const windowReducer = (state: WindowStore, action: WindowAction): WindowStore =>
       const target = state[action.id];
       if (!target) return state;
 
+      const isFocused = "autoFocus" in action && action.autoFocus === true || !("autoFocus" in action);
+
+      // Find current highest z
+      const highestZ = Object.values(state).reduce((max, w) => Math.max(max, w.z), 0);
+
+      // Determine z-index for the new window
+      const newZ = isFocused ? ++zCounter : highestZ; // if unfocused, put behind top
+
       const newState: WindowStore = {
         ...state,
         [action.id]: {
           ...target,
           minimized: false,
-          focused: true,
-          z: ++zCounter,
+          focused: isFocused,
+          z: newZ,
         }
       };
 
-      return focusOnly(action.id, newState);
+      return isFocused ? focusOnly(action.id, newState) : newState;
     }
 
     case "MOVE": {

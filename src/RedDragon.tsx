@@ -44,33 +44,25 @@ const RedDragon = ({
             y: position[1],
             width: size[0],
             height: size[1],
+            autoFocus: false,
             bounds: desktopRef as React.RefObject<HTMLElement>
           });
         } else {
-          dispatch({
-            type: "FOCUS",
-            id: cmdWinId
-          });
+          // dispatch({
+          //   type: "FOCUS",
+          //   id: cmdWinId
+          // });
           dispatch({
             type: "RESTORE",
-            id: cmdWinId
+            id: cmdWinId,
+            autoFocus: false
           });
         }
         setTicks(t => t + 1);
       }
-    }, 7000);
+    }, 6000);
     return () => clearInterval(interval);
   }, [bioOpened, cmdWinId, ticks, desktopRef, dispatch]);
-
-  useEffect(() => {
-    if (!bioOpened) return;
-    
-    const resetInterval = setInterval(() => {
-      setTicks(0);
-    }, 3 * 60 * 1000); // 3 minutes
-
-    return () => clearInterval(resetInterval);
-  }, [bioOpened]);
 
   return (
     <CommandWindow

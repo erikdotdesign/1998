@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import infoIcon from "./assets/images/icons/info.png";
 import bootLogo from "./assets/images/boot/boot-logo.webp";
 
@@ -13,7 +13,7 @@ const OSBoot = ({
 }) => {
   const [loaded, setLoaded] = useState(0);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const start = performance.now();
 
     const tick = () => {
