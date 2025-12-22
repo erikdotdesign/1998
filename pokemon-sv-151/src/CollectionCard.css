@@ -11,6 +11,8 @@
 
 .c-collection-card__img {
   z-index: 2;
+  object-fit: contain;
+  min-width: 0;
 }
 
 .c-collection-card__index {
