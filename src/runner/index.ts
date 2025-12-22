@@ -72,8 +72,7 @@ export class SynthwaveRunner {
     this.renderer = new THREE.WebGLRenderer({
       canvas: host,
       antialias: true,
-      alpha: true,
-      preserveDrawingBuffer: true,
+      alpha: true
     });
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.renderer.setSize(width, height, false);
@@ -115,7 +114,7 @@ export class SynthwaveRunner {
   }
 
   private initComposer(width: number, height: number) {
-    this.composer = new EffectComposer(this.renderer, { multisampling: 4 });
+    this.composer = new EffectComposer(this.renderer, { multisampling: 0 });
     const renderPass = new RenderPass(this.scene, this.camera);
 
     this.bloomEffect = new SelectiveBloomEffect(this.scene, this.camera, { 
