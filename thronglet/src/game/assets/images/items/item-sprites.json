@@ -1,0 +1,524 @@
+{
+	"textures": [
+		{
+			"image": "item-sprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1196,
+				"h": 1857
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ball/spawn/ball-spawn-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 0,
+						"w": 266,
+						"h": 793
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 266,
+						"h": 793
+					}
+				},
+				{
+					"filename": "apple/spawn/apple-spawn-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 1,
+						"w": 194,
+						"h": 792
+					},
+					"frame": {
+						"x": 1,
+						"y": 796,
+						"w": 194,
+						"h": 792
+					}
+				},
+				{
+					"filename": "ball/spawn/ball-spawn-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 105,
+						"w": 266,
+						"h": 688
+					},
+					"frame": {
+						"x": 269,
+						"y": 1,
+						"w": 266,
+						"h": 688
+					}
+				},
+				{
+					"filename": "apple/spawn/apple-spawn-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 129,
+						"w": 194,
+						"h": 664
+					},
+					"frame": {
+						"x": 537,
+						"y": 1,
+						"w": 194,
+						"h": 664
+					}
+				},
+				{
+					"filename": "ball/spawn/ball-spawn-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 237,
+						"w": 266,
+						"h": 556
+					},
+					"frame": {
+						"x": 733,
+						"y": 1,
+						"w": 266,
+						"h": 556
+					}
+				},
+				{
+					"filename": "apple/spawn/apple-spawn-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 257,
+						"w": 194,
+						"h": 536
+					},
+					"frame": {
+						"x": 1001,
+						"y": 1,
+						"w": 194,
+						"h": 536
+					}
+				},
+				{
+					"filename": "ball/play/ball-play-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 93,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 1,
+						"y": 1590,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "ball/spawn/ball-spawn-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 501,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 1,
+						"y": 1590,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "ball/spawn/ball-spawn-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 369,
+						"w": 266,
+						"h": 424
+					},
+					"frame": {
+						"x": 197,
+						"y": 796,
+						"w": 266,
+						"h": 424
+					}
+				},
+				{
+					"filename": "sponge/clean/sponge-clean-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 35,
+						"w": 290,
+						"h": 338
+					},
+					"frame": {
+						"x": 197,
+						"y": 1222,
+						"w": 290,
+						"h": 338
+					}
+				},
+				{
+					"filename": "ball/spawn/ball-spawn-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 501,
+						"w": 266,
+						"h": 292
+					},
+					"frame": {
+						"x": 269,
+						"y": 1562,
+						"w": 266,
+						"h": 292
+					}
+				},
+				{
+					"filename": "apple/spawn/apple-spawn-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 385,
+						"w": 194,
+						"h": 408
+					},
+					"frame": {
+						"x": 465,
+						"y": 691,
+						"w": 194,
+						"h": 408
+					}
+				},
+				{
+					"filename": "sponge/clean/sponge-clean-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 35,
+						"w": 290,
+						"h": 338
+					},
+					"frame": {
+						"x": 489,
+						"y": 1101,
+						"w": 290,
+						"h": 338
+					}
+				},
+				{
+					"filename": "ball/play/ball-play-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 93,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 537,
+						"y": 1441,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "ball/play/ball-play-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 93,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 733,
+						"y": 559,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "apple/spawn/apple-spawn-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 513,
+						"w": 194,
+						"h": 280
+					},
+					"frame": {
+						"x": 1001,
+						"y": 539,
+						"w": 194,
+						"h": 280
+					}
+				},
+				{
+					"filename": "ball/play/ball-play-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 93,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 661,
+						"y": 827,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "ball/play/ball-play-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 93,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 781,
+						"y": 1095,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "ball/play/ball-play-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 71,
+						"y": 93,
+						"w": 266,
+						"h": 266
+					},
+					"frame": {
+						"x": 929,
+						"y": 827,
+						"w": 266,
+						"h": 266
+					}
+				},
+				{
+					"filename": "apple/eat/apple-eat-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 105,
+						"w": 146,
+						"h": 242
+					},
+					"frame": {
+						"x": 1049,
+						"y": 1095,
+						"w": 146,
+						"h": 242
+					}
+				},
+				{
+					"filename": "apple/eat/apple-eat-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 105,
+						"w": 194,
+						"h": 254
+					},
+					"frame": {
+						"x": 805,
+						"y": 1363,
+						"w": 194,
+						"h": 254
+					}
+				},
+				{
+					"filename": "apple/spawn/apple-spawn-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 816
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 513,
+						"w": 194,
+						"h": 254
+					},
+					"frame": {
+						"x": 805,
+						"y": 1363,
+						"w": 194,
+						"h": 254
+					}
+				},
+				{
+					"filename": "apple/eat/apple-eat-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 105,
+						"w": 194,
+						"h": 254
+					},
+					"frame": {
+						"x": 1001,
+						"y": 1363,
+						"w": 194,
+						"h": 254
+					}
+				},
+				{
+					"filename": "apple/eat/apple-eat-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 408,
+						"h": 408
+					},
+					"spriteSourceSize": {
+						"x": 107,
+						"y": 105,
+						"w": 110,
+						"h": 206
+					},
+					"frame": {
+						"x": 805,
+						"y": 1619,
+						"w": 110,
+						"h": 206
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6cad658f0dd89cfa803baf57e784e984:dd193821e92f9aa96d3f3275e670993a:0c552b4cbfdd84c730e4a7c9c0631743$"
+	}
+}

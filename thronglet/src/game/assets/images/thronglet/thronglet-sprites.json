@@ -1,0 +1,8651 @@
+{
+	"textures": [
+		{
+			"image": "thronglet-sprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 15176,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "thronglet-death/death-0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 89,
+						"w": 352,
+						"h": 822
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 352,
+						"h": 822
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 129,
+						"w": 352,
+						"h": 782
+					},
+					"frame": {
+						"x": 1,
+						"y": 825,
+						"w": 352,
+						"h": 782
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 392,
+						"h": 431
+					},
+					"frame": {
+						"x": 1,
+						"y": 1609,
+						"w": 392,
+						"h": 431
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 169,
+						"w": 352,
+						"h": 742
+					},
+					"frame": {
+						"x": 355,
+						"y": 1,
+						"w": 352,
+						"h": 742
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 209,
+						"w": 352,
+						"h": 702
+					},
+					"frame": {
+						"x": 355,
+						"y": 745,
+						"w": 352,
+						"h": 702
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 329,
+						"w": 352,
+						"h": 582
+					},
+					"frame": {
+						"x": 395,
+						"y": 1449,
+						"w": 352,
+						"h": 582
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 249,
+						"w": 352,
+						"h": 662
+					},
+					"frame": {
+						"x": 709,
+						"y": 1,
+						"w": 352,
+						"h": 662
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 289,
+						"w": 352,
+						"h": 622
+					},
+					"frame": {
+						"x": 709,
+						"y": 665,
+						"w": 352,
+						"h": 622
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 369,
+						"w": 352,
+						"h": 542
+					},
+					"frame": {
+						"x": 749,
+						"y": 1289,
+						"w": 352,
+						"h": 542
+					}
+				},
+				{
+					"filename": "thronglet-clean/dead/dead-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 209,
+						"w": 352,
+						"h": 182
+					},
+					"frame": {
+						"x": 749,
+						"y": 1833,
+						"w": 352,
+						"h": 182
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 728,
+						"w": 352,
+						"h": 182
+					},
+					"frame": {
+						"x": 749,
+						"y": 1833,
+						"w": 352,
+						"h": 182
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 409,
+						"w": 352,
+						"h": 502
+					},
+					"frame": {
+						"x": 1063,
+						"y": 1,
+						"w": 352,
+						"h": 502
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 449,
+						"w": 352,
+						"h": 462
+					},
+					"frame": {
+						"x": 1063,
+						"y": 505,
+						"w": 352,
+						"h": 462
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 79,
+						"w": 342,
+						"h": 312
+					},
+					"frame": {
+						"x": 1063,
+						"y": 969,
+						"w": 342,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 79,
+						"w": 342,
+						"h": 312
+					},
+					"frame": {
+						"x": 1063,
+						"y": 969,
+						"w": 342,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 392,
+						"h": 431
+					},
+					"frame": {
+						"x": 1103,
+						"y": 1283,
+						"w": 392,
+						"h": 431
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 79,
+						"w": 342,
+						"h": 312
+					},
+					"frame": {
+						"x": 1407,
+						"y": 969,
+						"w": 342,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 69,
+						"w": 321,
+						"h": 322
+					},
+					"frame": {
+						"x": 1103,
+						"y": 1716,
+						"w": 321,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 69,
+						"w": 321,
+						"h": 322
+					},
+					"frame": {
+						"x": 1426,
+						"y": 1716,
+						"w": 321,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 0,
+						"w": 352,
+						"h": 431
+					},
+					"frame": {
+						"x": 1497,
+						"y": 1283,
+						"w": 352,
+						"h": 431
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 69,
+						"w": 321,
+						"h": 322
+					},
+					"frame": {
+						"x": 1749,
+						"y": 1716,
+						"w": 321,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 0,
+						"w": 352,
+						"h": 431
+					},
+					"frame": {
+						"x": 1417,
+						"y": 1,
+						"w": 352,
+						"h": 431
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 392,
+						"h": 422
+					},
+					"frame": {
+						"x": 1417,
+						"y": 434,
+						"w": 392,
+						"h": 422
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 392,
+						"h": 422
+					},
+					"frame": {
+						"x": 1751,
+						"y": 858,
+						"w": 392,
+						"h": 422
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 362,
+						"h": 422
+					},
+					"frame": {
+						"x": 1771,
+						"y": 1,
+						"w": 362,
+						"h": 422
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 362,
+						"h": 422
+					},
+					"frame": {
+						"x": 1811,
+						"y": 425,
+						"w": 362,
+						"h": 422
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 489,
+						"w": 352,
+						"h": 422
+					},
+					"frame": {
+						"x": 2135,
+						"y": 1,
+						"w": 352,
+						"h": 422
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 29,
+						"w": 342,
+						"h": 402
+					},
+					"frame": {
+						"x": 1851,
+						"y": 1282,
+						"w": 342,
+						"h": 402
+					}
+				},
+				{
+					"filename": "thronglet-clean/cleaning/cleaning-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 49,
+						"w": 401,
+						"h": 352
+					},
+					"frame": {
+						"x": 2072,
+						"y": 1686,
+						"w": 401,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 29,
+						"w": 342,
+						"h": 402
+					},
+					"frame": {
+						"x": 2145,
+						"y": 849,
+						"w": 342,
+						"h": 402
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 29,
+						"w": 332,
+						"h": 402
+					},
+					"frame": {
+						"x": 2175,
+						"y": 425,
+						"w": 332,
+						"h": 402
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 29,
+						"w": 332,
+						"h": 402
+					},
+					"frame": {
+						"x": 2489,
+						"y": 1,
+						"w": 332,
+						"h": 402
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 49,
+						"w": 392,
+						"h": 382
+					},
+					"frame": {
+						"x": 2195,
+						"y": 1253,
+						"w": 392,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 49,
+						"w": 392,
+						"h": 382
+					},
+					"frame": {
+						"x": 2475,
+						"y": 1637,
+						"w": 392,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 49,
+						"w": 382,
+						"h": 382
+					},
+					"frame": {
+						"x": 2489,
+						"y": 829,
+						"w": 382,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 49,
+						"w": 382,
+						"h": 382
+					},
+					"frame": {
+						"x": 2589,
+						"y": 1213,
+						"w": 382,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 49,
+						"w": 362,
+						"h": 382
+					},
+					"frame": {
+						"x": 2509,
+						"y": 405,
+						"w": 362,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 49,
+						"w": 362,
+						"h": 382
+					},
+					"frame": {
+						"x": 2823,
+						"y": 1,
+						"w": 362,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 49,
+						"w": 362,
+						"h": 382
+					},
+					"frame": {
+						"x": 2869,
+						"y": 1597,
+						"w": 362,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 49,
+						"w": 362,
+						"h": 382
+					},
+					"frame": {
+						"x": 2873,
+						"y": 385,
+						"w": 362,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 529,
+						"w": 352,
+						"h": 382
+					},
+					"frame": {
+						"x": 3187,
+						"y": 1,
+						"w": 352,
+						"h": 382
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2873,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 2973,
+						"y": 1143,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3217,
+						"y": 769,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3237,
+						"y": 385,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3541,
+						"y": 1,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 19,
+						"w": 342,
+						"h": 372
+					},
+					"frame": {
+						"x": 3233,
+						"y": 1517,
+						"w": 342,
+						"h": 372
+					}
+				},
+				{
+					"filename": "thronglet-clean/walk/walk-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 29,
+						"w": 332,
+						"h": 362
+					},
+					"frame": {
+						"x": 3317,
+						"y": 1143,
+						"w": 332,
+						"h": 362
+					}
+				},
+				{
+					"filename": "thronglet-dirty/walk/walk-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 29,
+						"w": 332,
+						"h": 362
+					},
+					"frame": {
+						"x": 3561,
+						"y": 759,
+						"w": 332,
+						"h": 362
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 362
+					},
+					"frame": {
+						"x": 3581,
+						"y": 375,
+						"w": 302,
+						"h": 362
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 362
+					},
+					"frame": {
+						"x": 3577,
+						"y": 1507,
+						"w": 302,
+						"h": 362
+					}
+				},
+				{
+					"filename": "thronglet-dirty/cleaning/cleaning-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 49,
+						"w": 401,
+						"h": 352
+					},
+					"frame": {
+						"x": 3651,
+						"y": 1123,
+						"w": 401,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 19,
+						"w": 392,
+						"h": 352
+					},
+					"frame": {
+						"x": 3881,
+						"y": 1477,
+						"w": 392,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 19,
+						"w": 392,
+						"h": 352
+					},
+					"frame": {
+						"x": 3885,
+						"y": 1,
+						"w": 392,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-death/death-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 569,
+						"w": 352,
+						"h": 352
+					},
+					"frame": {
+						"x": 3885,
+						"y": 355,
+						"w": 352,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 3895,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 3895,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 3895,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 3895,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4054,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4054,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4054,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4054,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4275,
+						"y": 1417,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4275,
+						"y": 1417,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4275,
+						"y": 1417,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4275,
+						"y": 1417,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/side/singing-a-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 119,
+						"w": 322,
+						"h": 272
+					},
+					"frame": {
+						"x": 4275,
+						"y": 1771,
+						"w": 322,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/side/singing-a-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 119,
+						"w": 322,
+						"h": 272
+					},
+					"frame": {
+						"x": 4599,
+						"y": 1771,
+						"w": 322,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-clean/skeptical/skeptical-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4239,
+						"y": 355,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4279,
+						"y": 1,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4279,
+						"y": 1,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4279,
+						"y": 1,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4279,
+						"y": 1,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4239,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4239,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4239,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4239,
+						"y": 709,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4398,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4398,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4398,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4398,
+						"y": 1063,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/skeptical/skeptical-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 39,
+						"w": 342,
+						"h": 352
+					},
+					"frame": {
+						"x": 4619,
+						"y": 1417,
+						"w": 342,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/side/singing-a-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 119,
+						"w": 322,
+						"h": 272
+					},
+					"frame": {
+						"x": 4923,
+						"y": 1771,
+						"w": 322,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 39,
+						"w": 322,
+						"h": 352
+					},
+					"frame": {
+						"x": 4583,
+						"y": 355,
+						"w": 322,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 79,
+						"w": 322,
+						"h": 352
+					},
+					"frame": {
+						"x": 4623,
+						"y": 1,
+						"w": 322,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 39,
+						"w": 322,
+						"h": 352
+					},
+					"frame": {
+						"x": 4583,
+						"y": 709,
+						"w": 322,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 79,
+						"w": 322,
+						"h": 352
+					},
+					"frame": {
+						"x": 4742,
+						"y": 1063,
+						"w": 322,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 79,
+						"w": 312,
+						"h": 352
+					},
+					"frame": {
+						"x": 4963,
+						"y": 1417,
+						"w": 312,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/side/singing-a-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 119,
+						"w": 322,
+						"h": 272
+					},
+					"frame": {
+						"x": 5247,
+						"y": 1771,
+						"w": 322,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 79,
+						"w": 312,
+						"h": 352
+					},
+					"frame": {
+						"x": 4907,
+						"y": 355,
+						"w": 312,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 352
+					},
+					"frame": {
+						"x": 4947,
+						"y": 1,
+						"w": 302,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 352
+					},
+					"frame": {
+						"x": 4907,
+						"y": 709,
+						"w": 302,
+						"h": 352
+					}
+				},
+				{
+					"filename": "thronglet-clean/cleaning/cleaning-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 49,
+						"w": 411,
+						"h": 350
+					},
+					"frame": {
+						"x": 5066,
+						"y": 1063,
+						"w": 411,
+						"h": 350
+					}
+				},
+				{
+					"filename": "thronglet-dirty/cleaning/cleaning-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 49,
+						"w": 411,
+						"h": 350
+					},
+					"frame": {
+						"x": 5211,
+						"y": 709,
+						"w": 411,
+						"h": 350
+					}
+				},
+				{
+					"filename": "thronglet-clean/cleaning/cleaning-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 49,
+						"w": 320,
+						"h": 346
+					},
+					"frame": {
+						"x": 5221,
+						"y": 355,
+						"w": 320,
+						"h": 346
+					}
+				},
+				{
+					"filename": "thronglet-dirty/cleaning/cleaning-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 49,
+						"w": 320,
+						"h": 346
+					},
+					"frame": {
+						"x": 5251,
+						"y": 1,
+						"w": 320,
+						"h": 346
+					}
+				},
+				{
+					"filename": "thronglet-clean/cleaning/cleaning-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 322,
+						"h": 343
+					},
+					"frame": {
+						"x": 5277,
+						"y": 1415,
+						"w": 322,
+						"h": 343
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/side/singing-a-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 342,
+						"h": 282
+					},
+					"frame": {
+						"x": 5571,
+						"y": 1760,
+						"w": 342,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/cleaning/cleaning-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 322,
+						"h": 343
+					},
+					"frame": {
+						"x": 5479,
+						"y": 1061,
+						"w": 322,
+						"h": 343
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 29,
+						"w": 392,
+						"h": 342
+					},
+					"frame": {
+						"x": 5601,
+						"y": 1406,
+						"w": 392,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 29,
+						"w": 392,
+						"h": 342
+					},
+					"frame": {
+						"x": 5601,
+						"y": 1406,
+						"w": 392,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 99,
+						"w": 302,
+						"h": 292
+					},
+					"frame": {
+						"x": 5915,
+						"y": 1750,
+						"w": 302,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 29,
+						"w": 392,
+						"h": 342
+					},
+					"frame": {
+						"x": 5543,
+						"y": 349,
+						"w": 392,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 29,
+						"w": 392,
+						"h": 342
+					},
+					"frame": {
+						"x": 5543,
+						"y": 349,
+						"w": 392,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 59,
+						"w": 382,
+						"h": 342
+					},
+					"frame": {
+						"x": 5573,
+						"y": 1,
+						"w": 382,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 59,
+						"w": 382,
+						"h": 342
+					},
+					"frame": {
+						"x": 5573,
+						"y": 1,
+						"w": 382,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 59,
+						"w": 382,
+						"h": 342
+					},
+					"frame": {
+						"x": 5624,
+						"y": 693,
+						"w": 382,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 59,
+						"w": 382,
+						"h": 342
+					},
+					"frame": {
+						"x": 5624,
+						"y": 693,
+						"w": 382,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 322,
+						"h": 342
+					},
+					"frame": {
+						"x": 5937,
+						"y": 345,
+						"w": 322,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 322,
+						"h": 342
+					},
+					"frame": {
+						"x": 5937,
+						"y": 345,
+						"w": 322,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 322,
+						"h": 342
+					},
+					"frame": {
+						"x": 5957,
+						"y": 1,
+						"w": 322,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 322,
+						"h": 342
+					},
+					"frame": {
+						"x": 5803,
+						"y": 1037,
+						"w": 322,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6008,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6261,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6281,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 5995,
+						"y": 1381,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 69,
+						"w": 321,
+						"h": 322
+					},
+					"frame": {
+						"x": 6219,
+						"y": 1725,
+						"w": 321,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6127,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/bored/bored-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6312,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/deep-thoughts/deep-thoughts-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/impactful-explanation/impactful-explanation-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/side/singing-a-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/skeptical/skeptical-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/walk/walk-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6565,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6585,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6585,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6585,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6585,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6299,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6299,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6299,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-a/disucssion-a-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6299,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6431,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6431,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6431,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6431,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6616,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6616,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6616,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6616,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6869,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6869,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6869,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-b/disucssion-b-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6869,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6889,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6889,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6889,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6889,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 312,
+						"h": 322
+					},
+					"frame": {
+						"x": 6542,
+						"y": 1721,
+						"w": 312,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6603,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6603,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6603,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6603,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6735,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6735,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6735,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/discussion-c/disucssion-c-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6735,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/eating/eating-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6920,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/eating/eating-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7173,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7193,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7193,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7193,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 69,
+						"w": 312,
+						"h": 322
+					},
+					"frame": {
+						"x": 6856,
+						"y": 1721,
+						"w": 312,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 6907,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7039,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7039,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/front/singing-a-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7224,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/walk/walk-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7224,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7477,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7477,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7497,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 312,
+						"h": 322
+					},
+					"frame": {
+						"x": 7170,
+						"y": 1721,
+						"w": 312,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/walk/walk-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7211,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/walk/walk-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7343,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/walk/walk-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7528,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7781,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7801,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 69,
+						"w": 312,
+						"h": 322
+					},
+					"frame": {
+						"x": 7484,
+						"y": 1721,
+						"w": 312,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7515,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7647,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7832,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/bored/bored-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8085,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/deep-thoughts/deep-thoughts-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/skeptical/skeptical-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8105,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 7798,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7819,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7819,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7819,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7819,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7951,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7951,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7951,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-a/disucssion-a-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 7951,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8136,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8136,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8136,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8136,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8389,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8389,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8389,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8389,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8409,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8409,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8409,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-b/disucssion-b-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8409,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 8102,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8123,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8123,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8123,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8123,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8255,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8255,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8255,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8255,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8440,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8440,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8440,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/discussion-c/disucssion-c-0013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8440,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/eating/eating-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8693,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/eating/eating-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8713,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 8406,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8427,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8427,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8427,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8559,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8744,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8744,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8997,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/side/singing-a-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8997,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/front/singing-a-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 9017,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 8710,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8731,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8731,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 8863,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/walk/walk-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 9048,
+						"y": 689,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/walk/walk-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 9301,
+						"y": 345,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/walk/walk-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 9321,
+						"y": 1,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 9014,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/walk/walk-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 9035,
+						"y": 1377,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/walk/walk-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 49,
+						"w": 302,
+						"h": 342
+					},
+					"frame": {
+						"x": 9167,
+						"y": 1033,
+						"w": 302,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 292,
+						"h": 342
+					},
+					"frame": {
+						"x": 9352,
+						"y": 689,
+						"w": 292,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/side/singing-b-side-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 292,
+						"h": 342
+					},
+					"frame": {
+						"x": 9605,
+						"y": 345,
+						"w": 292,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 292,
+						"h": 342
+					},
+					"frame": {
+						"x": 9625,
+						"y": 1,
+						"w": 292,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 9318,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/side/singing-b-side-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 292,
+						"h": 342
+					},
+					"frame": {
+						"x": 9339,
+						"y": 1377,
+						"w": 292,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 89,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9471,
+						"y": 1033,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-b/front/singing-b-front-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 89,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9646,
+						"y": 689,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9899,
+						"y": 345,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9919,
+						"y": 1,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 9622,
+						"y": 1721,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 89,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9633,
+						"y": 1377,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-b/front/singing-b-front-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 89,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9755,
+						"y": 1033,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 9930,
+						"y": 689,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 49,
+						"w": 282,
+						"h": 342
+					},
+					"frame": {
+						"x": 10183,
+						"y": 345,
+						"w": 282,
+						"h": 342
+					}
+				},
+				{
+					"filename": "thronglet-clean/skeptical/skeptical-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 59,
+						"w": 342,
+						"h": 332
+					},
+					"frame": {
+						"x": 10203,
+						"y": 1,
+						"w": 342,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/skeptical/skeptical-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 59,
+						"w": 342,
+						"h": 332
+					},
+					"frame": {
+						"x": 9917,
+						"y": 1377,
+						"w": 342,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 59,
+						"w": 332,
+						"h": 332
+					},
+					"frame": {
+						"x": 9926,
+						"y": 1711,
+						"w": 332,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 59,
+						"w": 332,
+						"h": 332
+					},
+					"frame": {
+						"x": 10260,
+						"y": 1711,
+						"w": 332,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 59,
+						"w": 332,
+						"h": 332
+					},
+					"frame": {
+						"x": 10039,
+						"y": 1033,
+						"w": 332,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 59,
+						"w": 332,
+						"h": 332
+					},
+					"frame": {
+						"x": 10261,
+						"y": 1367,
+						"w": 332,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10214,
+						"y": 689,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy-nod/happy-nod-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10214,
+						"y": 689,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10373,
+						"y": 1023,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10594,
+						"y": 1701,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10595,
+						"y": 1357,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy-nod/happy-nod-0009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10595,
+						"y": 1357,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10467,
+						"y": 335,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 59,
+						"w": 322,
+						"h": 332
+					},
+					"frame": {
+						"x": 10547,
+						"y": 1,
+						"w": 322,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 312,
+						"h": 332
+					},
+					"frame": {
+						"x": 10538,
+						"y": 669,
+						"w": 312,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 312,
+						"h": 332
+					},
+					"frame": {
+						"x": 10791,
+						"y": 335,
+						"w": 312,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 312,
+						"h": 332
+					},
+					"frame": {
+						"x": 10871,
+						"y": 1,
+						"w": 312,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 59,
+						"w": 312,
+						"h": 332
+					},
+					"frame": {
+						"x": 10697,
+						"y": 1003,
+						"w": 312,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/side/singing-c-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 59,
+						"w": 302,
+						"h": 332
+					},
+					"frame": {
+						"x": 10852,
+						"y": 669,
+						"w": 302,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 59,
+						"w": 302,
+						"h": 332
+					},
+					"frame": {
+						"x": 11105,
+						"y": 335,
+						"w": 302,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 99,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 11185,
+						"y": 1,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/happy/happy-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 99,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 11185,
+						"y": 1,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 59,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 10918,
+						"y": 1691,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 59,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 10919,
+						"y": 1337,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 99,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 11011,
+						"y": 1003,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/happy/happy-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 99,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 11011,
+						"y": 1003,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 59,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 11156,
+						"y": 669,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 59,
+						"w": 292,
+						"h": 332
+					},
+					"frame": {
+						"x": 11409,
+						"y": 335,
+						"w": 292,
+						"h": 332
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11479,
+						"y": 1,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-clean/skeptical/skeptical-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11212,
+						"y": 1671,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11213,
+						"y": 1337,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/side/singing-c-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11305,
+						"y": 1003,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11450,
+						"y": 669,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11703,
+						"y": 325,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11783,
+						"y": 1,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11516,
+						"y": 1661,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11517,
+						"y": 1327,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11609,
+						"y": 993,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/skeptical/skeptical-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 69,
+						"w": 302,
+						"h": 322
+					},
+					"frame": {
+						"x": 11754,
+						"y": 649,
+						"w": 302,
+						"h": 322
+					}
+				},
+				{
+					"filename": "thronglet-dirty/impactful-explanation/impactful-explanation-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 79,
+						"w": 342,
+						"h": 312
+					},
+					"frame": {
+						"x": 12007,
+						"y": 325,
+						"w": 342,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 79,
+						"w": 312,
+						"h": 312
+					},
+					"frame": {
+						"x": 12087,
+						"y": 1,
+						"w": 312,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 79,
+						"w": 312,
+						"h": 312
+					},
+					"frame": {
+						"x": 11820,
+						"y": 1651,
+						"w": 312,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 79,
+						"w": 312,
+						"h": 312
+					},
+					"frame": {
+						"x": 11821,
+						"y": 1317,
+						"w": 312,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 79,
+						"w": 312,
+						"h": 312
+					},
+					"frame": {
+						"x": 11913,
+						"y": 973,
+						"w": 312,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 79,
+						"w": 312,
+						"h": 312
+					},
+					"frame": {
+						"x": 12058,
+						"y": 639,
+						"w": 312,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 79,
+						"w": 312,
+						"h": 312
+					},
+					"frame": {
+						"x": 12351,
+						"y": 315,
+						"w": 312,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 79,
+						"w": 302,
+						"h": 312
+					},
+					"frame": {
+						"x": 12401,
+						"y": 1,
+						"w": 302,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-c/front/singing-c-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 79,
+						"w": 302,
+						"h": 312
+					},
+					"frame": {
+						"x": 12134,
+						"y": 1631,
+						"w": 302,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 79,
+						"w": 302,
+						"h": 312
+					},
+					"frame": {
+						"x": 12135,
+						"y": 1287,
+						"w": 302,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-c/front/singing-c-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 79,
+						"w": 302,
+						"h": 312
+					},
+					"frame": {
+						"x": 12227,
+						"y": 953,
+						"w": 302,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 79,
+						"w": 292,
+						"h": 312
+					},
+					"frame": {
+						"x": 12372,
+						"y": 629,
+						"w": 292,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 79,
+						"w": 292,
+						"h": 312
+					},
+					"frame": {
+						"x": 12665,
+						"y": 315,
+						"w": 292,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 79,
+						"w": 292,
+						"h": 312
+					},
+					"frame": {
+						"x": 12705,
+						"y": 1,
+						"w": 292,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 79,
+						"w": 292,
+						"h": 312
+					},
+					"frame": {
+						"x": 12438,
+						"y": 1601,
+						"w": 292,
+						"h": 312
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 89,
+						"w": 332,
+						"h": 302
+					},
+					"frame": {
+						"x": 12439,
+						"y": 1267,
+						"w": 332,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 89,
+						"w": 332,
+						"h": 302
+					},
+					"frame": {
+						"x": 12531,
+						"y": 943,
+						"w": 332,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/side/singing-d-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 89,
+						"w": 332,
+						"h": 302
+					},
+					"frame": {
+						"x": 12666,
+						"y": 629,
+						"w": 332,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 89,
+						"w": 332,
+						"h": 302
+					},
+					"frame": {
+						"x": 12959,
+						"y": 315,
+						"w": 332,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 89,
+						"w": 332,
+						"h": 302
+					},
+					"frame": {
+						"x": 12999,
+						"y": 1,
+						"w": 332,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/side/singing-d-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 89,
+						"w": 332,
+						"h": 302
+					},
+					"frame": {
+						"x": 12732,
+						"y": 1571,
+						"w": 332,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/hungry/hungry-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 12773,
+						"y": 1247,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/hungry/hungry-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 12865,
+						"y": 933,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/hungry/hungry-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13000,
+						"y": 619,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13293,
+						"y": 305,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/side/singing-e-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13333,
+						"y": 1,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/hungry/hungry-0001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13066,
+						"y": 1551,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/hungry/hungry-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13077,
+						"y": 1237,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/hungry/hungry-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13169,
+						"y": 923,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13304,
+						"y": 609,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/side/singing-e-side-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 302,
+						"h": 302
+					},
+					"frame": {
+						"x": 13597,
+						"y": 305,
+						"w": 302,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 292,
+						"h": 302
+					},
+					"frame": {
+						"x": 13637,
+						"y": 1,
+						"w": 292,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 89,
+						"w": 292,
+						"h": 302
+					},
+					"frame": {
+						"x": 13370,
+						"y": 1541,
+						"w": 292,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 89,
+						"w": 292,
+						"h": 302
+					},
+					"frame": {
+						"x": 13381,
+						"y": 1227,
+						"w": 292,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 89,
+						"w": 292,
+						"h": 302
+					},
+					"frame": {
+						"x": 13473,
+						"y": 913,
+						"w": 292,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 89,
+						"w": 292,
+						"h": 302
+					},
+					"frame": {
+						"x": 13608,
+						"y": 609,
+						"w": 292,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 89,
+						"w": 292,
+						"h": 302
+					},
+					"frame": {
+						"x": 13901,
+						"y": 305,
+						"w": 292,
+						"h": 302
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 99,
+						"w": 302,
+						"h": 292
+					},
+					"frame": {
+						"x": 13931,
+						"y": 1,
+						"w": 302,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 13664,
+						"y": 1531,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-d/front/singing-d-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 13675,
+						"y": 1217,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 13767,
+						"y": 913,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-e/front/singing-e-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 13902,
+						"y": 609,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 14195,
+						"y": 295,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-d/front/singing-d-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 14235,
+						"y": 1,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 13958,
+						"y": 1511,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-e/front/singing-e-front-0007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 99,
+						"w": 292,
+						"h": 292
+					},
+					"frame": {
+						"x": 13969,
+						"y": 1207,
+						"w": 292,
+						"h": 292
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/side/singing-a-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 342,
+						"h": 282
+					},
+					"frame": {
+						"x": 14061,
+						"y": 903,
+						"w": 342,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/side/singing-a-side-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 342,
+						"h": 282
+					},
+					"frame": {
+						"x": 14196,
+						"y": 589,
+						"w": 342,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/side/singing-a-side-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 342,
+						"h": 282
+					},
+					"frame": {
+						"x": 14489,
+						"y": 295,
+						"w": 342,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/front/singing-a-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 332,
+						"h": 282
+					},
+					"frame": {
+						"x": 14529,
+						"y": 1,
+						"w": 332,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/front/singing-a-front-0005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 332,
+						"h": 282
+					},
+					"frame": {
+						"x": 14252,
+						"y": 1501,
+						"w": 332,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/side/singing-a-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 322,
+						"h": 282
+					},
+					"frame": {
+						"x": 14263,
+						"y": 1187,
+						"w": 322,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/side/singing-a-side-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 109,
+						"w": 322,
+						"h": 282
+					},
+					"frame": {
+						"x": 14405,
+						"y": 873,
+						"w": 322,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/front/singing-a-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 109,
+						"w": 312,
+						"h": 282
+					},
+					"frame": {
+						"x": 14540,
+						"y": 579,
+						"w": 312,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/front/singing-a-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 109,
+						"w": 312,
+						"h": 282
+					},
+					"frame": {
+						"x": 14833,
+						"y": 285,
+						"w": 312,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/front/singing-a-front-0004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 109,
+						"w": 312,
+						"h": 282
+					},
+					"frame": {
+						"x": 14863,
+						"y": 1,
+						"w": 312,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/front/singing-a-front-0006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 109,
+						"w": 312,
+						"h": 282
+					},
+					"frame": {
+						"x": 14586,
+						"y": 1471,
+						"w": 312,
+						"h": 282
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/front/singing-a-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 119,
+						"w": 312,
+						"h": 272
+					},
+					"frame": {
+						"x": 14586,
+						"y": 1755,
+						"w": 312,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-clean/singing-a/front/singing-a-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 119,
+						"w": 312,
+						"h": 272
+					},
+					"frame": {
+						"x": 14587,
+						"y": 1157,
+						"w": 312,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/front/singing-a-front-0002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 119,
+						"w": 312,
+						"h": 272
+					},
+					"frame": {
+						"x": 14729,
+						"y": 863,
+						"w": 312,
+						"h": 272
+					}
+				},
+				{
+					"filename": "thronglet-dirty/singing-a/front/singing-a-front-0003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 440,
+						"h": 440
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 119,
+						"w": 312,
+						"h": 272
+					},
+					"frame": {
+						"x": 14854,
+						"y": 569,
+						"w": 312,
+						"h": 272
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e3f105994f0bc4d37d8d4d5a933fbe02:905e8f410336ceab1e72e730f5d7f9e6:84560a00d54cef3689b22300339a3244$"
+	}
+}

@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 the-ultimate-doom/node_modules
+thronglet/node_modules
 
 # Editor directories and files
 .vscode/*

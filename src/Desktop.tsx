@@ -3,6 +3,7 @@ import Popups from './Popups';
 import DesktopItems from './DesktopItems';
 import BioWindow from './BioWindow';
 import DoomWindow from "./DoomWindow";
+import ThrongletWindow from "./ThrongletWindow";
 import LinksWindow from './LinksWindow';
 import RedDragon from './RedDragon';
 
@@ -25,6 +26,7 @@ const Desktop = () => {
         <BioWindow />
         <LinksWindow />
         <DoomWindow />
+        <ThrongletWindow />
       </div>
     </div>
   );

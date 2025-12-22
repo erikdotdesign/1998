@@ -3,8 +3,9 @@ import LinkIcon from "./assets/images/icons/link.png";
 import WarnIcon from "./assets/images/icons/warning.png";
 import RedDragonIcon from "./assets/images/icons/red-dragon.png";
 import DoomIcon from "./assets/images/icons/doom.png";
+import ThrongletIcon from "./assets/images/icons/thronglet.png";
 
-export type WindowType = "popup" | "command-prompt" | "bio" | "links" | "doom";
+export type WindowType = "popup" | "command-prompt" | "bio" | "links" | "doom" | "thronglet";
 export type WindowPopupType = "bigfoot" | "bug" | "horoscope" | "movies" | "music" | "nessy" | "shop" | "spagett";
 
 export type WindowState = {
@@ -90,6 +91,8 @@ const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType | nul
         default:
           return "Popup";
       }
+    case "thronglet":
+      return "Thronglet";
     default:
       return "Window";
   }
@@ -107,6 +110,8 @@ const getWindowIcon = (windowType: WindowType) => {
       return LinkIcon;
     case "popup":
       return WarnIcon;
+    case "thronglet":
+      return ThrongletIcon;
     default:
       return null;
   }

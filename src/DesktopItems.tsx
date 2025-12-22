@@ -5,6 +5,7 @@ import useWindowManager from './WindowManager';
 import NoteIcon from "./assets/images/icons/note.png";
 import LinkIcon from "./assets/images/icons/link.png";
 import DoomIcon from "./assets/images/icons/doom.png";
+import ThrongletIcon from "./assets/images/icons/thronglet.png";
 
 const DESKTOP_ITEMS = [{
   icon: NoteIcon,
@@ -21,6 +22,11 @@ const DESKTOP_ITEMS = [{
   label: "Doom",
   windowType: "doom",
   size: [600, 530]
+},{
+  icon: ThrongletIcon,
+  label: "Thronglet",
+  windowType: "thronglet",
+  size: [509, 595]
 }];
 
 const DesktopItems = ({
