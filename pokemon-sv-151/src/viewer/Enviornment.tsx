@@ -4,8 +4,8 @@ const Enviornment = () => {
   const postProcessing = usePostProcessing();
   return (
     <>
-      <color attach="background" args={[postProcessing ? "#DCE4F9" : '#E2E6F0']} />
-      <fog attach="fog" args={[postProcessing ? "#DCE4F9" : '#E2E6F0', 0, 25]} />
+      <color attach="background" args={[postProcessing ? "#DCE4F9" : '#DCE4F9']} />
+      <fog attach="fog" args={[postProcessing ? "#DCE4F9" : '#DCE4F9', 0, 25]} />
     </>
   );
 };

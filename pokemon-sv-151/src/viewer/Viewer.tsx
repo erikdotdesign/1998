@@ -24,7 +24,7 @@ const Viewer = ({
   const lightsRef = useRef<LightsHandle>(null);
 
   return (
-    <PostProcessingContext.Provider value={true}>
+    <PostProcessingContext.Provider value={false}>
       <Canvas 
         ref={canvasRef} 
         shadows 
