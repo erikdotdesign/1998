@@ -1,0 +1,58 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-dark: #666666;
+  --color-gray-medium: #999999;
+  --color-gray-light: #cccccc;
+  --color-olive: #55593D;
+  --color-yellow: #FFFF75;
+  --color-red: #E30000;
+  --color-red-dark: #A60100;
+  --font-family: "Pixelify Sans", Arial, Helvetica, sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-size-regular: 12px;
+  --line-height-regular: 16px;
+  --font-size-medium: 16px;
+  --line-height-medium: 24px;
+  --font-size-large: 24px;
+  --line-height-large: 32px;
+  --border-raised: 
+    2px 2px 0 0 inset color-mix(in srgb, var(--color-white) 25%, transparent), 
+    -2px -2px 0 0 inset color-mix(in srgb, var(--color-black) 50%, transparent), 
+    1px 1px 0 0 inset color-mix(in srgb, var(--color-white) 25%, transparent), 
+    -1px -1px 0 0 inset color-mix(in srgb, var(--color-black) 25%, transparent);
+  --border-sunken: 
+    2px 2px 0 0 inset color-mix(in srgb, var(--color-black) 50%, transparent), 
+    -2px -2px 0 0 inset color-mix(in srgb, var(--color-white) 25%, transparent), 
+    1px 1px 0 0 inset color-mix(in srgb, var(--color-black) 25%, transparent), 
+    -1px -1px 0 0 inset color-mix(in srgb, var(--color-white) 25%, transparent);
+  --border-focused: 0 0 0 1px var(--color-yellow);
+  --background-size: 100px;
+  --background-position: center;
+  --background-stone-green: url('./images/stone-green.png') var(--background-position) / var(--background-size) repeat;
+  --background-pavement: url('./images/pavement.png') var(--background-position) / var(--background-size) repeat;
+  --background-metal-brushed: url('./images/metal-brushed.png') var(--background-position) / var(--background-size) repeat;
+  --background-metal-hex: url('./images/metal-hex.png') var(--background-position) / var(--background-size) repeat;
+  --background-red: url('./images/red.png') var(--background-position) / var(--background-size) repeat;
+  --text-shadow: 1px 1px 1px var(--color-black);
+}
+
+.c-app {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 16px;
+  gap: 16px;
+  background: var(--background-stone-green), var(--color-olive);
+  cursor: url('./images/cursor.png'), auto;
+
+  &::selection {
+    background: rgba(0,0,0,0);
+  }
+}

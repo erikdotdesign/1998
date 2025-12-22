@@ -1,0 +1,29 @@
+{
+  "name": "the-ultimate-doom",
+  "version": "1.0.0",
+  "description": "the-ultimate-doom",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch"
+  },
+  "author": "Figma",
+  "license": "MIT License",
+  "dependencies": {
+    "js-dos": "6.22",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.1",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "concurrently": "^8.2.2",
+    "esbuild": "^0.19.7",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.0",
+    "vite-plugin-singlefile": "^0.13.5",
+    "vite-svg-loader": "^5.1.0"
+  }
+}

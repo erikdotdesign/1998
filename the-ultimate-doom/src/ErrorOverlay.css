@@ -1,0 +1,70 @@
+.c-error-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--background-red);
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  
+  &::selection {
+    background: rgba(255,255,255, 0.2);
+  }
+}
+
+.c-error-overlay__dg {
+  width: 48px;
+  height: 56px;
+  position: relative;
+  margin: 4px;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:before {
+    background: url("./images/dg-angry-l.png");
+    background-size: cover;
+    opacity: 1;
+    animation: doomGuy 3s infinite;
+  }
+
+  &:after {
+    background: url("./images/dg-angry-r.png");
+    background-size: cover;
+    opacity: 1;
+    animation: doomGuy reverse 3s infinite;
+  }
+}
+
+@keyframes doomGuy {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.c-error-overlay__header, .c-error-overlay__message {
+  color: var(--color-white);
+  text-shadow: var(--text-shadow);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c-error-overlay__header {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+
+.c-error-overlay__message {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}

@@ -1,0 +1,86 @@
+.c-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  min-width: 32px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+  box-shadow: var(--border-raised);
+  background: var(--background-metal-brushed), var(--color-gray-dark);
+
+  &:hover {
+    .c-button__text {
+      background: linear-gradient(0deg, var(--color-white), var(--color-white));
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+  &:active {
+    box-shadow: var(--border-sunken);
+  }
+
+  &.c-button--active {
+    box-shadow: var(--border-raised), var(--border-focused);
+
+    .c-button__text {
+      background: linear-gradient(0deg, var(--color-yellow), var(--color-yellow));
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .c-button__icon {
+      svg {
+        fill: var(--color-yellow) !important;
+      }
+    }
+  }
+
+  &.c-button--justify {
+    justify-content: space-between;
+  }
+}
+
+.c-button__icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: translate(-1px, -1px);
+
+  svg {
+    fill: var(--color-gray-light) !important;
+    filter: drop-shadow(var(--text-shadow));
+  }
+}
+
+.c-button__text {
+  background: linear-gradient(0deg, var(--color-white), var(--color-gray-medium));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(var(--text-shadow));
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+}
+
+.c-button-group {
+  display: flex;
+  gap: 8px;
+
+  &.c-button-group--column {
+    flex-direction: column;
+  }
+
+  &.c-button-group--fill {
+    width: 100%;
+    
+    .c-button {
+      width: 100%;
+    }
+  }
+}

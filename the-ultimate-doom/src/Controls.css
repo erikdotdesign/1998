@@ -1,0 +1,38 @@
+.c-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 8px;
+
+  .c-button {
+    .c-button__icon {
+      display: none;
+    }
+  }
+}
+
+.c-controls__group {
+  display: flex;
+  gap: 16px;
+}
+
+/* Smaller font size on mobile */
+@media (max-width: 480px) {
+  .c-controls {
+    .c-button {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+
+      .c-button__text {
+        display: none;
+      }
+      .c-button__icon {
+        display: inline-block;
+      }
+    }
+  }
+}
