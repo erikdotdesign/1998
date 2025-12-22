@@ -1,0 +1,14 @@
+.c-pokemon-window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #DCE4F9;
+}
+
+.c-pokemon-window__iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}

@@ -6,6 +6,7 @@ import NoteIcon from "./assets/images/icons/note.png";
 import LinkIcon from "./assets/images/icons/link.png";
 import DoomIcon from "./assets/images/icons/doom.png";
 import ThrongletIcon from "./assets/images/icons/thronglet.png";
+import PokemonIcon from "./assets/images/icons/pokemon-sv-151.png";
 
 const DESKTOP_ITEMS = [{
   icon: NoteIcon,
@@ -26,6 +27,11 @@ const DESKTOP_ITEMS = [{
   icon: ThrongletIcon,
   label: "Thronglet",
   windowType: "thronglet",
+  size: [509, 595]
+},{
+  icon: PokemonIcon,
+  label: "151",
+  windowType: "pokemon",
   size: [509, 595]
 }];
 

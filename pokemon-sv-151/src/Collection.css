@@ -1,0 +1,110 @@
+.c-collection {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-gray);
+  z-index: 10;
+  box-shadow: 1px 1px 0 0 inset rgba(255,255,255,0.6), -1px -1px 0 0 inset rgba(0,0,0,0.2), 1px 4px 8px 0 rgba(0,0,0,0.2), 1px 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c-collection__inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+  overflow: scroll;
+}
+
+.c-collection__header {
+  display: flex;
+  width: 100%;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    gap: 12px;
+
+    &:first-child {
+      justify-content: flex-start;
+    }
+
+    &:last-child {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.c-collection__collected {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 auto;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  border-radius: var(--border-radius);
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.02), rgba(0,0,0, 0.05));
+  box-shadow: -2px -2px 2px 0 inset rgba(255,255,255,0.6), 2px 2px 2px 0px inset rgba(0,0,0,0.2);
+
+  span {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+}
+
+.c-collection__cards {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 8px;
+}
+
+@media (max-width: 800px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+
+@media (max-width: 600px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 300px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 200px) {
+  .c-collection__cards {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
