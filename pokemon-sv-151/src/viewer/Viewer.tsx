@@ -36,10 +36,7 @@ const Viewer = ({
           state={state}
           dispatch={dispatch} />
         <Floor state={state} />
-        <Effects 
-          lightsRef={lightsRef}
-          packRef={packRef}
-          state={state} />
+        <Effects />
         {/* <OrbitControls /> */}
       </Canvas>
     </PostProcessingContext.Provider>
