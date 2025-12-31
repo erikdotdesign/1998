@@ -30,7 +30,7 @@ const DESKTOP_ITEMS = [{
   size: [509, 595]
 },{
   icon: PokemonIcon,
-  label: "151",
+  label: "Pokemon",
   windowType: "pokemon",
   size: [509, 595]
 }];
