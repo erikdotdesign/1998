@@ -91,6 +91,17 @@ const Rotator = forwardRef<RotatorHandle, RotatorProps>((
       (currentRotY.current + currentTilt.current.y) * (reversed ? 1 : -1);
   });
 
+  const handlePointerDown = (e: any) => {
+    if (disabled) return;
+
+    e.stopPropagation();
+    e.target.setPointerCapture(e.pointerId);
+  };
+
+  const handlePointerUp = (e: any) => {
+    e.target.releasePointerCapture(e.pointerId);
+  };
+
   // 🧠 Pointer tracking
   const handlePointerMove = (e: any) => {
     if (!cardRef.current || disabled) return;
@@ -134,6 +145,8 @@ const Rotator = forwardRef<RotatorHandle, RotatorProps>((
   return (
     <group
       ref={cardRef}
+      onPointerDown={handlePointerDown}
+      onPointerUp={handlePointerUp}
       onPointerMove={handlePointerMove}
       onPointerOver={() => setHovered(true)}
       onPointerOut={handlePointerOut}
