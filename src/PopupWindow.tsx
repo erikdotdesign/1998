@@ -30,11 +30,6 @@ const popupWindowContent = (popupType: WindowPopupType) => {
     //     img: BigfootImg,
     //     text: BigfootText
     //   };
-    case "bug":
-      return {
-        img: BugImg,
-        text: BugText
-      };
     case "horoscope":
       return {
         img: HoroscopeImg,
@@ -54,6 +49,11 @@ const popupWindowContent = (popupType: WindowPopupType) => {
       return {
         img: NessyImg,
         text: NessyText
+      };
+    case "scan":
+      return {
+        img: BugImg,
+        text: BugText
       };
     case "shop":
       return {

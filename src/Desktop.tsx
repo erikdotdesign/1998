@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Popups from './Popups';
+import Errors from "./Errors";
 import DesktopItems from './DesktopItems';
 import BioWindow from './BioWindow';
 import DoomWindow from "./DoomWindow";
@@ -24,6 +25,7 @@ const Desktop = () => {
           desktopRef={desktopRef} />
         <RedDragon
           desktopRef={desktopRef} />
+        <Errors />
         <BioWindow />
         <LinksWindow />
         <DoomWindow />

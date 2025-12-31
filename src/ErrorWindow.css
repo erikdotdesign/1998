@@ -1,0 +1,24 @@
+.c-error-window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.c-error-window__body {
+  display: flex;
+  gap: 12px;
+
+  img {
+    width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+  }
+}
+
+.c-error-window__actions {
+  justify-content: flex-end;
+}

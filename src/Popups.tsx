@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import { centerPosition } from "./helpers";
 import { v4 as uuidv4 } from "uuid";
 import type { WindowPopupType, WindowState } from './windowReducer';
 import useWindowManager from './WindowManager';
@@ -17,7 +18,7 @@ const Popups = ({
 
   const didMount = useRef(false);
 
-  const popupSequence: WindowPopupType[] = ["music", "horoscope", "nessy", "bug", "shop", "movies"];
+  const popupSequence: WindowPopupType[] = ["music", "horoscope", "nessy", "scan", "shop", "movies"];
 
   const [popupIndex, setPopupIndex] = useState<number>(0);
 
@@ -93,14 +94,12 @@ const Popups = ({
   };
 
   const reOpenPopup = (popupType: WindowPopupType) => {
-    const id = uuidv4();
-
     const { width, height } = getPopupSize();
     const { x, y } = getRandomPosition(width, height);
 
     dispatch({
       type: "OPEN",
-      id,
+      id: uuidv4(),
       x,
       y,
       width,
@@ -108,6 +107,23 @@ const Popups = ({
       bounds: desktopRef as React.RefObject<HTMLElement>,
       windowType: "popup",
       popupType: popupType
+    });
+
+    // Error window
+    const size = [350,150];
+    const position = centerPosition(desktopRef, size[0], size[1]);
+
+    dispatch({
+      type: "OPEN",
+      id: uuidv4(),
+      x: position[0],
+      y: position[1],
+      width: size[0],
+      height: size[1],
+      bounds: desktopRef as React.RefObject<HTMLElement>,
+      windowType: "error",
+      popupType: null,
+      body: `RED_DRAGON_${popupType.toUpperCase()}.EXE could not be closed.`
     });
   };
 

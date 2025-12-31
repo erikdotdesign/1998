@@ -21,6 +21,7 @@ export type WindowViewProps = {
   z: number;
 
   resizable?: boolean;
+  canMaximize?: boolean;
   bounds?: HTMLElement | null;
 
   onDragStart?: RndDragCallback;
@@ -46,7 +47,8 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
   width,
   height,
   z,
-  resizable = false,
+  resizable = true,
+  canMaximize = true,
   bounds,
   menu = [], // default empty
   onDragStart,
@@ -61,6 +63,12 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
 }, ref) => {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const menuRef = useRef<HTMLUListElement>(null);
+
+  // Handle title double click
+  const handleDoubleClick = () => {
+    if (!canMaximize) return;
+    if (onMaximize) onMaximize();
+  }
 
   // Toggle menu on click
   const toggleMenu = (menuLabel: string) => {
@@ -129,14 +137,14 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
         onMouseDown={onMouseDown}>
         <div
           className={`title-bar ${inactive ? "inactive" : ""}`}
-          onDoubleClick={onMaximize}>
+          onDoubleClick={handleDoubleClick}>
           <div className="title-bar-title">
             {icon && <img className="title-bar-icon" src={icon as string} draggable="false" />}
             <div className="title-bar-text">{title}</div>
           </div>
           <div className="title-bar-controls">
             <button aria-label="Minimize" onClick={onMinimize} />
-            <button aria-label={`${maximized ? "Restore" : "Maximize"}`} onClick={onMaximize} />
+            <button aria-label={`${maximized ? "Restore" : "Maximize"}`} onClick={onMaximize} disabled={!canMaximize} />
             <button aria-label="Close" onClick={onClose} />
           </div>
         </div>
@@ -175,10 +183,14 @@ const WindowView = forwardRef<HTMLDivElement, WindowViewProps>(({
           }}>
           {children}
         </div>
-        <div className="status-bar">
-          <div className="status-bar-field"></div>
-          <div className="status-bar-field status-bar-field--resize"></div>
-        </div>
+        {
+          resizable
+          ? <div className="status-bar">
+              <div className="status-bar-field"></div>
+              <div className="status-bar-field status-bar-field--resize"></div>
+            </div>
+          : null
+        }
       </div>
     </Rnd>
   );

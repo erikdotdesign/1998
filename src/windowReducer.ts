@@ -1,13 +1,14 @@
 import NotepadIcon from "./assets/images/icons/notepad.png";
 import LinkIcon from "./assets/images/icons/link.png";
 import WarnIcon from "./assets/images/icons/warning.png";
+import ErrorIcon from "./assets/images/icons/error.png";
 import RedDragonIcon from "./assets/images/icons/red-dragon.png";
 import DoomIcon from "./assets/images/icons/doom.png";
 import ThrongletIcon from "./assets/images/icons/thronglet.png";
 import PokemonIcon from "./assets/images/icons/pokemon-sv-151.png";
 
-export type WindowType = "popup" | "command-prompt" | "bio" | "links" | "doom" | "thronglet" | "pokemon";
-export type WindowPopupType = "bigfoot" | "bug" | "horoscope" | "movies" | "music" | "nessy" | "shop" | "spagett";
+export type WindowType = "popup" | "command-prompt" | "bio" | "links" | "doom" | "thronglet" | "pokemon" | "error";
+export type WindowPopupType = "bigfoot" | "scan" | "horoscope" | "movies" | "music" | "nessy" | "shop" | "spagett";
 
 export type WindowState = {
   id: string;
@@ -15,6 +16,7 @@ export type WindowState = {
   windowType: WindowType;
   popupType: WindowPopupType | null;
   title: string;
+  body?: string;
   icon: string | null;
   x: number;
   y: number;
@@ -43,8 +45,9 @@ export type WindowAction =
       width: number;
       height: number;
       windowType: WindowType; 
-      popupType: WindowPopupType | null,
-      autoFocus?: boolean
+      popupType: WindowPopupType | null;
+      autoFocus?: boolean;
+      body?: string;
     }
   | { type: "CLOSE"; id: string }
   | { type: "CLOSE_ALL" }
@@ -70,6 +73,8 @@ const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType | nul
       return "RED_DRAGON.EXE";
     case "doom":
       return "Doom";
+    case "error":
+      return "Error";
     case "links":
       return "Links";
     case "pokemon":
@@ -78,7 +83,7 @@ const getWindowTitle = (windowType: WindowType, popupType: WindowPopupType | nul
       switch (popupType) {
         case "bigfoot":
           return "Bigfoot Found!";
-        case "bug":
+        case "scan":
           return "Virus Detected!";
         case "horoscope":
           return "Your Horoscope!";
@@ -110,6 +115,8 @@ const getWindowIcon = (windowType: WindowType) => {
       return RedDragonIcon;
     case "doom":
       return DoomIcon;
+    case "error":
+      return ErrorIcon;
     case "links":
       return LinkIcon;
     case "pokemon":
@@ -159,6 +166,7 @@ const windowReducer = (state: WindowStore, action: WindowAction): WindowStore =>
           windowType: action.windowType,
           popupType: action.popupType,
           title: getWindowTitle(action.windowType, action.popupType),
+          body: action.body,
           icon: getWindowIcon(action.windowType),
           x: action.x,
           y: action.y,

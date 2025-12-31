@@ -7,6 +7,8 @@ type WindowContainerProps = {
   id: string;
   children: React.ReactNode;
   menu?: WindowMenuItem[];
+  resizable?: boolean;
+  canMaximize?: boolean;
   onClose?: (window: WindowState) => void;
 };
 
@@ -14,6 +16,8 @@ const WindowContainer = forwardRef<HTMLDivElement, WindowContainerProps>(({
   id,
   children,
   menu,
+  resizable,
+  canMaximize,
   onClose
 }, ref) => {
   const { windows, dispatch } = useWindowManager();
@@ -91,7 +95,8 @@ const WindowContainer = forwardRef<HTMLDivElement, WindowContainerProps>(({
         width={win.width}
         height={win.height}
         z={win.z}
-        resizable={true}
+        resizable={resizable}
+        canMaximize={canMaximize}
         bounds={bounds.current}
         menu={menu}
 
