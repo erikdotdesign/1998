@@ -19,7 +19,11 @@ const DoomWindow = () => {
             <h5>Keyboard Required</h5>
             <p><i>This game also has sound</i></p>
           </div>
-          <button onClick={() => setShowModal(false)}>Ok</button>
+          <button 
+            onClick={() => setShowModal(false)}
+            data-analytics={`doom-modal`}>
+            Ok
+          </button>
         </div>
       )}
     </IFrameWindow>
