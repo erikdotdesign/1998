@@ -34,7 +34,7 @@ const OSBoot = ({
   return (
     <div className="c-os-boot">
       <div className="c-os-boot__logo">
-        <img src={bootLogo} />
+        <img src={bootLogo} draggable="false" />
       </div>
       <div className="c-os-boot__progress">
         <div className="c-os-boot__loading-bar">
@@ -43,7 +43,7 @@ const OSBoot = ({
           </div>
         </div>
         <div className="c-os-boot__info">
-          <img src={infoIcon} />
+          <img src={infoIcon} draggable="false" />
           <span>Everything is already loaded, this is just for effect.</span>
         </div>
       </div>

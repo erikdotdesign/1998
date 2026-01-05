@@ -24,10 +24,6 @@ const RedDragon = ({
   );
   const cmdWinId = cmdWin ? cmdWin.id : null;
 
-  if (Object.values(windows).find(w => w.windowType === "bio") && !bioOpened) {
-    setBioOpened(true);
-  } 
-
   useEffect(() => {
     if (!desktopRef.current || !bioOpened) return;
     const interval = setInterval(() => {
@@ -63,6 +59,14 @@ const RedDragon = ({
     }, 6000);
     return () => clearInterval(interval);
   }, [bioOpened, cmdWinId, ticks, desktopRef, dispatch]);
+
+  useEffect(() => {
+    const bioWindowExists = Object.values(windows).some(w => w.windowType === "bio");
+    if (bioWindowExists && !bioOpened) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setBioOpened(true);
+    }
+  }, [windows, bioOpened]);
 
   return (
     <CommandWindow

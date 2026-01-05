@@ -49,7 +49,8 @@ const LinksWindow = () => {
                   key={i}
                   className="c-links-window__link"
                   href={link.link}
-                  target="_blank">
+                  target="_blank"
+                  data-analytics={`link_${link.label.toLowerCase()}`}>
                   <img src={link.icon} />
                   <p>{link.label}</p>
                 </a>

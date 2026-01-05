@@ -118,7 +118,10 @@ const PopupWindow = ({
       onClose={onClose}>
       <div className='c-popup-window'>
         <div className="c-popup-window__ad-wrap" ref={imgRef}>
-          <a className="c-popup-window__ad" onClick={onPopupClick}>
+          <a 
+            className="c-popup-window__ad" 
+            onClick={onPopupClick}
+            data-analytics={`popup_${win.popupType}`}>
             <img src={content?.img} draggable="false" />
             <img src={content?.text} draggable="false" />
           </a>

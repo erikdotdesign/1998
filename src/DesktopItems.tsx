@@ -79,8 +79,9 @@ const DesktopItems = ({
           <button 
             key={i}
             className="c-desktop__item"
-            onClick={() => handleClick(item.windowType as WindowType, item.size)}>
-            <img src={item.icon} />
+            onClick={() => handleClick(item.windowType as WindowType, item.size)}
+            data-analytics={`desktop_${item.windowType}`}>
+            <img src={item.icon} draggable="false" />
             <p>{item.label}</p>
           </button>
         ))

@@ -69,7 +69,8 @@ const StartBar = () => {
           startMenuOpen={startMenuOpen} />
         <button 
           className={`c-start-bar__btn c-start-bar__btn--start ${startMenuOpen ? "active" : ''}`}
-          onClick={() => setStartMenuOpen(!startMenuOpen)}>
+          onClick={() => setStartMenuOpen(!startMenuOpen)}
+          data-analytics="start-button">
           <img src={Logo} draggable="false" /> 
           Start
         </button>

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { initClickTracking } from './clickTracking';
 import { PowerGlitchE } from "./PowerGlitchE";
 import useWindowManager from './WindowManager';
 import Boot from './Boot';
@@ -17,10 +18,6 @@ const App = () => {
   const cmdWindow = Object.values(windows).filter(w => w.windowType === "command-prompt");
   const ids = [...popups, ...cmdWindow].map(p => p.id);
   const idsKey = ids.join(",");
-
-  if (popups.length > 6 && !crashed) {
-    setCrashed(true);
-  }
 
   useEffect(() => {
     if (!glitchRef.current) return;
@@ -52,6 +49,17 @@ const App = () => {
       }
     );
   }, [popups.length, idsKey]);
+
+  useEffect(() => {
+    if (popups.length > 6 && !crashed) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setCrashed(true);
+    }
+  }, [popups.length, crashed]);
+
+  useEffect(() => {
+    initClickTracking();
+  }, []);
 
   return (
     <>
