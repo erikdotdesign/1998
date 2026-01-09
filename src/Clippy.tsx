@@ -42,7 +42,7 @@ const Clippy = () => {
               className="c-clippy__button"
               disabled={tipIndex === 0} 
               onClick={() => setTipIndex(tipIndex - 1)}
-              data-analytics={`clippy_tip-${(tipIndex + 1) - 1}`}>
+              data-analytics={`clippy_tip-${tipIndex - 1}`}>
               Prev
             </button>
             <p>{tipIndex + 1} of {CLIPPY_TIPS.length}</p>
@@ -50,7 +50,7 @@ const Clippy = () => {
               className="c-clippy__button"
               disabled={tipIndex === CLIPPY_TIPS.length - 1} 
               onClick={() => setTipIndex(tipIndex + 1)}
-              data-analytics={`clippy_tip-${(tipIndex + 1) + 1}`}>
+              data-analytics={`clippy_tip-${tipIndex + 1}`}>
               Next
             </button>
           </div>
