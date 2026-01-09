@@ -11,7 +11,9 @@ const BioWindow = () => {
     \nHe’s the creator of btwx, the prototyping and animation desktop app designed for product designers, and the mind behind a growing ecosystem of Figma plugins and widgets used by thousands. If there’s a gap in the workflow, Erik doesn’t wait for a solution — he invents one.
     \nHe’s designed livestream experiences for Fox, e-commerce interfaces seen in billions of Google searches, and first-generation recommendation systems for Twitch that reached over 100 million users. From scrappy startups to multi-platform launches, he brings the same focus: make the complicated feel effortless.
     \nHe moves fluidly between UI/UX, interaction design, front-end engineering, and AI-powered creativity — a hybrid builder who can sketch the idea, wire the logic, and ship the vision.
-    \n------------------------------------------\n------------------------------------------\nDON'T CLICK THE POPUPS!\n------------------------------------------\n------------------------------------------`
+    \nClick Links to see full design (Dribbble), code (Github), and Figma plugin/widget examples.
+    \nClick Doom, Thronglet, or Pokemon to explore interactive project demos.
+    \nDON'T CLICK THE POPUPS!`
   );
   const win = Object.values(windows).find(w => w.windowType === "bio");
 
