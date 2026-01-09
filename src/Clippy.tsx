@@ -41,21 +41,24 @@ const Clippy = () => {
             <button 
               className="c-clippy__button"
               disabled={tipIndex === 0} 
-              onClick={() => setTipIndex(tipIndex - 1)}>
+              onClick={() => setTipIndex(tipIndex - 1)}
+              data-analytics={`clippy_tip-${(tipIndex + 1) - 1}`}>
               Prev
             </button>
             <p>{tipIndex + 1} of {CLIPPY_TIPS.length}</p>
             <button 
               className="c-clippy__button"
               disabled={tipIndex === CLIPPY_TIPS.length - 1} 
-              onClick={() => setTipIndex(tipIndex + 1)}>
+              onClick={() => setTipIndex(tipIndex + 1)}
+              data-analytics={`clippy_tip-${(tipIndex + 1) + 1}`}>
               Next
             </button>
           </div>
         </div>
         <button 
           className="c-clippy__button c-clippy__button--close"
-          onClick={() => setVisible(false)}>
+          onClick={() => setVisible(false)}
+          data-analytics={`clippy_close`}>
           <img src={CloseIcon} alt="Close" />
         </button>
       </animated.div>
