@@ -8,6 +8,7 @@ import ThrongletWindow from "./ThrongletWindow";
 import PokemonWindow from "./PokemonWindow";
 import LinksWindow from './LinksWindow';
 import RedDragon from './RedDragon';
+import Clippy from "./Clippy";
 
 import "./Desktop.css";
 
@@ -31,6 +32,7 @@ const Desktop = () => {
         <DoomWindow />
         <ThrongletWindow />
         <PokemonWindow />
+        <Clippy />
       </div>
     </div>
   );

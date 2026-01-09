@@ -133,7 +133,7 @@ const Popups = ({
       didMount.current = true;
       setTimeout(() => {
         openPopup(0);
-      }, 1000);
+      }, 500);
     }
   }, []);
 
